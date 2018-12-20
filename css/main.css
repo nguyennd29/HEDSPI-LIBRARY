@@ -609,7 +609,7 @@ iframe {
   width: 100%;
   height: 80px;
   background-color: white;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   position: relative;
   -webkit-transition: all 0.3s;
@@ -626,8 +626,10 @@ iframe {
 /*[ Logo ]
 -----------------------------------------------------------*/
 .logo {
+    padding-top:20px;
+    padding-bottom: 20px;
   display: block;
-  position: absolute;
+  position: relative;
   left: 52px;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -1107,7 +1109,7 @@ li.sale-noti > a {
 
 .side-menu .sub-menu > li {
   padding-left: 12px;
-  padding-top: 
+  padding-top: 0;
 }
 
 .side-menu .sub-menu a:hover {
@@ -2346,4 +2348,12 @@ input.num-product::-webkit-inner-spin-button {
     margin: 0; 
 }
 
+/*/////////*/
 
+.wrap_menu{
+    align-self: center;
+}
+
+.inputbox{
+    height:45px;
+}
