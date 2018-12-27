@@ -1,6 +1,7 @@
 
 $(document).ready(function() {
     $('.logout-nav').hide();
+    $('.current-user').hide();
 
     var sessiondata =sessionStorage.getItem("mySession");
 
@@ -10,6 +11,7 @@ $(document).ready(function() {
             url: `http://localhost:6969/api/user/id/${sessiondata}`,
             method: 'GET',
             success: function (data) {
+                $('.current-user').show();
                 $('.current-user').html(`Hello ${data.user[0].username} !`);
                 $('.login-nav').hide();
                 $('.logout-nav').show();

@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>HEDSPI Library</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--
+      ===============================================================================================
+    -->
+	<link rel="icon" type="image/png" href="images/icons/favicon.png" />
+	<!--
+      ===============================================================================================
+    -->
+	<link
+			rel="stylesheet"
+			type="text/css"
+			href="vendor/bootstrap/css/bootstrap.min.css"
+	/>
+	<!--
+      ===============================================================================================
+    -->
+	<link
+			rel="stylesheet"
+			type="text/css"
+			href="fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+	/>
+	<!--
+      ===============================================================================================
+    -->
+	<link
+			rel="stylesheet"
+			type="text/css"
+			href="fonts/themify/themify-icons.css"
+	/>
+	<!--
+      ===============================================================================================
+    -->
+	<link
+			rel="stylesheet"
+			type="text/css"
+			href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css"
+	/>
+	<!--
+      ===============================================================================================
+    -->
+	<link
+			rel="stylesheet"
+			type="text/css"
+			href="fonts/elegant-font/html-css/style.css"
+	/>
+	<!--
+      ===============================================================================================
+    -->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
+	<!--
+      ===============================================================================================
+    -->
+	<link
+			rel="stylesheet"
+			type="text/css"
+			href="vendor/css-hamburgers/hamburgers.min.css"
+	/>
+	<!--
+      ===============================================================================================
+    -->
+	<link
+			rel="stylesheet"
+			type="text/css"
+			href="vendor/animsition/css/animsition.min.css"
+	/>
+	<!--
+      ===============================================================================================
+    -->
+	<link
+			rel="stylesheet"
+			type="text/css"
+			href="vendor/select2/select2.min.css"
+	/>
+	<!--
+      ===============================================================================================
+    -->
+	<link
+			rel="stylesheet"
+			type="text/css"
+			href="vendor/daterangepicker/daterangepicker.css"
+	/>
+	<!--
+      ===============================================================================================
+    -->
+	<link rel="stylesheet" type="text/css" href="vendor/slick/slick.css" />
+	<!--
+      ===============================================================================================
+    -->
+	<link
+			rel="stylesheet"
+			type="text/css"
+			href="vendor/lightbox2/css/lightbox.min.css"
+	/>
+	<!--
+      ===============================================================================================
+    -->
+	<link rel="stylesheet" type="text/css" href="css/util.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<!--
+      ===============================================================================================
+    -->
+</head>
+<body class="animsition">
+<!-- Header -->
+<header class="header1">
+	<!-- Header desktop -->
+	<div class="container-menu-header">
+		<div class="topbar">
+			<div class="topbar-social">
+				<a href="#" class="topbar-social-item fa fa-facebook"></a>
+				<a href="#" class="topbar-social-item fa fa-instagram"></a>
+				<a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
+				<a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
+				<a href="#" class="topbar-social-item fa fa-youtube-play"></a>
+			</div>
+
+			<span class="topbar-child1"> </span>
+
+			<div class="topbar-child2">
+				<span class="topbar-email"> Language </span>
+
+				<div class="topbar-language rs1-select2">
+					<select class="selection-1" name="time">
+						<option>ENG</option>
+						<option>VIET</option>
+						<option>JAP</option>
+					</select>
+				</div>
+			</div>
+		</div>
+
+		<div class="wrap_header">
+			<!-- Logo -->
+			<a href="index.html" class="logo">
+				<!-- <img src="images/icons/logo.png" alt="IMG-LOGO" /> -->
+				<h1>HEDSPI Library</h1>
+			</a>
+
+			<!-- Menu -->
+			<div class="wrap_menu">
+				<nav class="menu">
+					<ul class="main_menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#NewArrival">New Arrival</a></li>
+						<!--
+                          <li class="sale-noti">
+                              <a href="product.html">Sale</a>
+                          </li>
+                        -->
+						<li>
+							<a href="#Category">Category</a>
+							<ul class="sub_menu">
+								<li><a href="">Văn Học</a></li>
+								<li><a href="">Thiếu Nhi</a></li>
+								<li><a href="">Trinh Thám</a></li>
+								<li><a href="">Xem thêm >></a></li>
+							</ul>
+						</li>
+
+						<li><a href="about.html">About</a></li>
+
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+
+	<!-- Header Mobile -->
+	<div class="wrap_header_mobile">
+		<!-- Logo moblie -->
+		<a href="index.html" class="logo-mobile">
+			<!-- <img src="images/icons/logo.png" alt="IMG-LOGO" /> -->
+			<h4>HEDSPI Library</h4>
+		</a>
+
+		<!-- Button show menu -->
+		<div class="btn-show-menu">
+			<!-- Header Icon mobile -->
+
+			<div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+           <span class="hamburger-box">
+             <span class="hamburger-inner"></span>
+           </span>
+			</div>
+		</div>
+	</div>
+
+	<!-- Menu Mobile -->
+	<div class="wrap-side-menu">
+		<nav class="side-menu">
+			<ul class="main-menu">
+				<li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
+					<div class="topbar-child2-mobile">
+						<span class="topbar-email"> Language</span>
+
+						<div class="topbar-language rs1-select2 ">
+							<select class="selection-1" name="time">
+								<option>ENG</option>
+								<option>VIET</option>
+								<option>JAP</option>
+							</select>
+						</div>
+					</div>
+				</li>
+
+				<li class="item-topbar-mobile p-l-10">
+					<div class="topbar-social-mobile">
+						<a href="#" class="topbar-social-item fa fa-facebook"></a>
+						<a href="#" class="topbar-social-item fa fa-instagram"></a>
+						<a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
+						<a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
+						<a href="#" class="topbar-social-item fa fa-youtube-play"></a>
+					</div>
+				</li>
+
+				<li class="item-menu-mobile"><a href="index.html">Home</a></li>
+
+				<li class="item-menu-mobile">
+					<a href="product.html">New Arrival</a>
+				</li>
+
+				<li class="item-menu-mobile">
+					<a>Category</a>
+					<ul class="sub-menu">
+						<li><a href="">Văn Học</a></li>
+						<li><a href="">Thiếu Nhi</a></li>
+						<li><a href="">Trinh Thám</a></li>
+						<li><a href="">Xem thêm >></a></li>
+					</ul>
+					<i
+							class="arrow-main-menu fa fa-angle-right"
+							aria-hidden="true"
+					></i>
+				</li>
+
+				<li class="item-menu-mobile"><a href="about.html">About</a></li>
+
+				<li class="item-menu-mobile"><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<!-- content page -->
+<section class="bgwhite p-t-66 p-b-38">
+	<div class="container">
+		<div class="sec-title p-b-60">
+			<h3 class="m-text5 t-center">Our Beloved Teacher</h3>
+		</div>
+		<div class="row">
+			<div class="col-md-4 p-b-30">
+				<div class="hov-img-zoom">
+					<img src="./images/Ava/1794581_4121461530892_2077129758_n.jpg" alt="IMG-ABOUT">
+				</div>
+			</div>
+
+			<div class="col-md-8 p-b-30">
+				<h3 class="m-text26 p-t-15 p-b-16">
+					Our thank you letter
+				</h3>
+
+				<p class="p-b-28">
+					We would like to thank you, most sincerely, for taking your time to use our product – HEDSPI library. It was great that you have contributed to our efforts. We want to send our best regard to our teacher Mr. Phuong who lead us through the dark of our life. Please to know that, although we have working daily without any hesitation. Once again thank you for being there for us, when we need you guys the most.
+				</p>
+
+				<div class="bo13 p-l-29 m-l-9 p-b-10">
+					<p class="p-b-11">
+						Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn't really do it, they just saw something. It seemed obvious to them after a while.
+					</p>
+
+					<span class="s-text7">
+                    - Steve Job’s
+                 </span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="newproduct bgwhite p-t-45 p-b-105">
+		<div class="container">
+			<div class="sec-title p-b-60">
+				<h3 class="m-text5 t-center">Our Member</h3>
+			</div>
+
+			<!-- Slide2 -->
+			<div class="wrap-slick2">
+				<div class="slick2">
+					<div class="item-slick2 p-l-15 p-r-15">
+						<!-- Block2 -->
+						<div class="block2">
+							<div
+									class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew"
+							>
+								<img src="images/mybanner/novel-cover 2.jpeg" alt="IMG-PRODUCT" />
+
+								<div class="block2-overlay trans-0-4">
+									<a
+											href="#"
+											class="block2-btn-addwishlist hov-pointer trans-0-4"
+									>
+										<i
+												class="icon-wishlist icon_heart_alt"
+												aria-hidden="true"
+										></i>
+										<i
+												class="icon-wishlist icon_heart dis-none"
+												aria-hidden="true"
+										></i>
+									</a>
+
+									<div class="block2-btn-addcart w-size1 trans-0-4">
+										<!-- Button -->
+										<button
+												class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4"
+										>
+											Add to Cart
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="block2-txt p-t-20">
+								<a
+										href="product-detail.html"
+										class="block2-name dis-block s-text3 p-b-5"
+								>
+									FIVE FEET APART
+								</a>
+
+								<span class="block2-price m-text6 p-r-5"> Rating: 4.8/5 </span>
+							</div>
+						</div>
+					</div>
+
+					<div class="item-slick2 p-l-15 p-r-15">
+						<!-- Block2 -->
+						<div class="block2">
+							<div class="block2-img wrap-pic-w of-hidden pos-relative">
+								<img src="images/mybanner/manga-cover.jpeg" alt="IMG-PRODUCT" />
+
+								<div class="block2-overlay trans-0-4">
+									<a
+											href="#"
+											class="block2-btn-addwishlist hov-pointer trans-0-4"
+									>
+										<i
+												class="icon-wishlist icon_heart_alt"
+												aria-hidden="true"
+										></i>
+										<i
+												class="icon-wishlist icon_heart dis-none"
+												aria-hidden="true"
+										></i>
+									</a>
+
+									<div class="block2-btn-addcart w-size1 trans-0-4">
+										<!-- Button -->
+										<button
+												class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4"
+										>
+											Add to Cart
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="block2-txt p-t-20">
+								<a
+										href="product-detail.html"
+										class="block2-name dis-block s-text3 p-b-5"
+								>
+									SWORD ART ONLINE
+								</a>
+
+								<span class="block2-price m-text6 p-r-5"> RATING:4.0/5 </span>
+							</div>
+						</div>
+					</div>
+
+					<div class="item-slick2 p-l-15 p-r-15">
+						<!-- Block2 -->
+						<div class="block2">
+							<div class="block2-img wrap-pic-w of-hidden pos-relative">
+								<img src="images/mybanner/vanhoc-cover1.jpeg" alt="IMG-PRODUCT" />
+
+								<div class="block2-overlay trans-0-4">
+									<a
+											href="#"
+											class="block2-btn-addwishlist hov-pointer trans-0-4"
+									>
+										<i
+												class="icon-wishlist icon_heart_alt"
+												aria-hidden="true"
+										></i>
+										<i
+												class="icon-wishlist icon_heart dis-none"
+												aria-hidden="true"
+										></i>
+									</a>
+
+									<div class="block2-btn-addcart w-size1 trans-0-4">
+										<!-- Button -->
+										<button
+												class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4"
+										>
+											Add to Cart
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="block2-txt p-t-20">
+								<a
+										href="product-detail.html"
+										class="block2-name dis-block s-text3 p-b-5"
+								>
+									CHO TÔI XIN MỘT VÉ VỀ TUỔI THƠ
+								</a>
+
+								<span class="block2-price m-text6 p-r-5"> RATING: 4.9/5 </span>
+							</div>
+						</div>
+					</div>
+
+					<div class="item-slick2 p-l-15 p-r-15">
+						<!-- Block2 -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</section>
+
+	<footer class="bg6 p-t-45 p-b-43 p-l-45 p-r-45">
+		<div class="flex-w p-b-90">
+			<div class="w-size6 p-t-30 p-l-15 p-r-15 respon3">
+				<h4 class="s-text12 p-b-30">GET IN TOUCH</h4>
+
+				<div>
+					<p class="s-text7 w-size27">
+						Any questions?<br> Let us know in HEDSPI Library <br>or call us on (+84) 0842299904
+					</p>
+
+					<div class="flex-m p-t-30">
+						<a href="#" class="fs-18 color1 p-r-20 fa fa-facebook"></a>
+						<a href="#" class="fs-18 color1 p-r-20 fa fa-instagram"></a>
+						<a href="#" class="fs-18 color1 p-r-20 fa fa-pinterest-p"></a>
+						<a href="#" class="fs-18 color1 p-r-20 fa fa-snapchat-ghost"></a>
+						<a href="#" class="fs-18 color1 p-r-20 fa fa-youtube-play"></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
+				<h4 class="s-text12 p-b-30">Categories</h4>
+
+				<ul>
+					<li class="p-b-9"><a href="#" class="s-text7"> Manga </a></li>
+
+					<li class="p-b-9"><a href="#" class="s-text7"> Văn Học </a></li>
+
+					<li class="p-b-9"><a href="#" class="s-text7"> Tiểu Thuyết </a></li>
+
+					<li class="p-b-9"><a href="#" class="s-text7"> Others </a></li>
+				</ul>
+			</div>
+
+			<div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
+				<h4 class="s-text12 p-b-30">Links</h4>
+
+				<ul>
+					<li class="p-b-9"><a href="#" class="s-text7"> Search </a></li>
+
+					<li class="p-b-9"><a href="#" class="s-text7"> About Us </a></li>
+
+
+				</ul>
+			</div>
+
+			<div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
+				<h4 class="s-text12 p-b-30">Help</h4>
+
+				<ul>
+
+					<li class="p-b-9"><a href="#" class="s-text7"> Support </a></li>
+
+					<li class="p-b-9"><a href="#" class="s-text7"> FAQs </a></li>
+				</ul>
+			</div>
+
+
+		</div>
+
+	</footer>
+
+	<!-- Back to top -->
+	<div class="btn-back-to-top bg0-hov" id="myBtn">
+     <span class="symbol-btn-back-to-top">
+       <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+     </span>
+	</div>
+
+	<!-- Container Selection1 -->
+	<div id="dropDownSelect1"></div>
+
+	<!--
+     ===============================================================================================
+    -->
+	<script
+			type="text/javascript"
+			src="vendor/jquery/jquery-3.2.1.min.js"
+	></script>
+	<!--
+     ===============================================================================================
+    -->
+	<script
+			type="text/javascript"
+			src="vendor/animsition/js/animsition.min.js"
+	></script>
+	<!--
+     ===============================================================================================
+    -->
+	<script type="text/javascript" src="vendor/bootstrap/js/popper.js"></script>
+	<script
+			type="text/javascript"
+			src="vendor/bootstrap/js/bootstrap.min.js"
+	></script>
+	<!--
+     ===============================================================================================
+    -->
+	<script type="text/javascript" src="vendor/select2/select2.min.js"></script>
+	<script type="text/javascript">
+        $(".selection-1").select2({
+            minimumResultsForSearch: 20,
+            dropdownParent: $("#dropDownSelect1")
+        });
+	</script>
+	<!--
+     ===============================================================================================
+    -->
+	<script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/slick-custom.js"></script>
+	<!--
+     ===============================================================================================
+    -->
+	<script
+			type="text/javascript"
+			src="vendor/countdowntime/countdowntime.js"
+	></script>
+	<!--
+     ===============================================================================================
+    -->
+	<script
+			type="text/javascript"
+			src="vendor/lightbox2/js/lightbox.min.js"
+	></script><!--
+
+ ===============================================================================================
+-->
+	<script
+			type="text/javascript"
+			src="vendor/sweetalert/sweetalert.min.js"
+	></script>
+
+	<!--
+     ===============================================================================================
+    -->
+	<script src="js/main.js"></script>
+</body>
+</html>
+

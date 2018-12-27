@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -114,23 +115,31 @@
             <div class="topbar-social">
                 <a href="#" class="topbar-social-item fa fa-facebook"></a>
                 <a href="#" class="topbar-social-item fa fa-instagram"></a>
+                <a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
+                <a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
                 <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
             </div>
 
             <span class="topbar-child1"> </span>
 
             <div class="topbar-child2">
-                <span class="current-user"></span>
+                <span class="topbar-email"> Language </span>
 
+                <div class="topbar-language rs1-select2">
+                    <select class="selection-1" name="time">
+                        <option>ENG</option>
+                        <option>VIET</option>
+                        <option>JAP</option>
+                    </select>
+                </div>
             </div>
         </div>
 
-        <div class="wrap_header px-3">
+        <div class="wrap_header">
             <!-- Logo -->
-
             <a href="index.html" class="logo">
                 <!-- <img src="images/icons/logo.png" alt="IMG-LOGO" /> -->
-                <h2>HEDSPI Library</h2>
+                <h1>HEDSPI Library</h1>
             </a>
 
             <!-- Menu -->
@@ -138,6 +147,7 @@
                 <nav class="menu">
                     <ul class="main_menu">
                         <li><a href="index.html">Home</a></li>
+                        <li><a href="#NewArrival">New Arrival</a></li>
                         <!--
                           <li class="sale-noti">
                               <a href="product.html">Sale</a>
@@ -146,30 +156,19 @@
                         <li>
                             <a href="#Category">Category</a>
                             <ul class="sub_menu">
-                                <li><a href='/search?tag=tiểu thuyết'>Novel</a></li>
-                                <li><a href='/search?tag=Fiction'>Fiction </a></li>
-                                <li><a href='/search?tag=văn học nước ngoài'>Foreign Book</a></li>
-
-                                <li><a href='/search?tag=Fiction'>See more >></a></li>
+                                <li><a href="">Văn Học</a></li>
+                                <li><a href="">Thiếu Nhi</a></li>
+                                <li><a href="">Trinh Thám</a></li>
+                                <li><a href="">Xem thêm >></a></li>
                             </ul>
                         </li>
 
                         <li><a href="about.html">About</a></li>
-                        <li class="login-nav"><a href="/login/login.html">Log In</a></li>
-                        <li class="logout-nav"><a style="cursor: pointer">Log Out</a></li>
 
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
-
-            <form id="nav-search" class="pos-relative bo12 of-hidden searchbox">
-                <input class="s-text7 size16 p-l-23 p-r-50 inputbox" type="text" name="nav-keyword" id="nav-keyword" placeholder="Search">
-
-                <button class="flex-c-m size5 ab-r-m color1 color0-hov trans-0-4">
-                    <i class="fs-13 fa fa-search" aria-hidden="true"></i>
-                </button>
-            </form>
-
         </div>
     </div>
 
@@ -197,35 +196,60 @@
     <div class="wrap-side-menu">
         <nav class="side-menu">
             <ul class="main-menu">
+                <li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
+                    <div class="topbar-child2-mobile">
+                        <span class="topbar-email"> Language</span>
 
-                <li class="item-menu-mobile current-user text-right p-3"></li>
+                        <div class="topbar-language rs1-select2 ">
+                            <select class="selection-1" name="time">
+                                <option>ENG</option>
+                                <option>VIET</option>
+                                <option>JAP</option>
+                            </select>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="item-topbar-mobile p-l-10">
+                    <div class="topbar-social-mobile">
+                        <a href="#" class="topbar-social-item fa fa-facebook"></a>
+                        <a href="#" class="topbar-social-item fa fa-instagram"></a>
+                        <a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
+                        <a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
+                        <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
+                    </div>
+                </li>
+
                 <li class="item-menu-mobile"><a href="index.html">Home</a></li>
-                <li class="item-menu-mobile"><a href="search.html">Search</a></li>
+
+                <li class="item-menu-mobile">
+                    <a href="product.html">New Arrival</a>
+                </li>
+
                 <li class="item-menu-mobile">
                     <a>Category</a>
                     <ul class="sub-menu">
-                        <li><a href='/search?tag=tiểu thuyết'>Novel</a></li>
-                        <li><a href='/search?tag=Fiction'>Fiction </a></li>
-                        <li><a href='/search?tag=văn học nước ngoài'>Foreign Book</a></li>
-                        <li><a href='/search?tag=Fiction'>See more >></a></li>
+                        <li><a href="">Văn Học</a></li>
+                        <li><a href="">Thiếu Nhi</a></li>
+                        <li><a href="">Trinh Thám</a></li>
+                        <li><a href="">Xem thêm >></a></li>
                     </ul>
                     <i
                             class="arrow-main-menu fa fa-angle-right"
                             aria-hidden="true"
                     ></i>
                 </li>
+
                 <li class="item-menu-mobile"><a href="about.html">About</a></li>
 
-                <li class="item-menu-mobile login-nav"><a href="/login/login.html">Login</a></li>
-
-
-                <li class="item-menu-mobile logout-nav"><a>Log Out</a></li>
-
-                <!--<li class="item-menu-mobile"><a href="index.html"></a></li>-->
+                <li class="item-menu-mobile"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </div>
 </header>
+
+
+
 
 
 <!-- content page -->
@@ -238,34 +262,33 @@
                         <section class="bgwhite p-t-68 p-b-38">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-md-5 p-b-30 px-30">
+                                    <div class="col-md-4 p-b-30">
                                         <div class="hov-img-zoom">
-                                            <img id="bookImage" src="images/thumb-item-01.jpg" alt="IMG-ABOUT">
+                                            <img src="images/banner-14.jpg" alt="IMG-ABOUT">
                                         </div>
                                     </div>
                                     <!-- Story + tóm tắt-->
-                                    <div class="col-md-7 p-b-30 p-l-30">
-                                        <h1 class="m-text26 p-t-15 p-b-15 font-weight-bold p-l-10" id="bookName">
+                                    <div class="col-md-8 p-b-30">
+                                        <h3 class="m-text26 p-t-15 p-b-15 font-weight-bold">
 
-                                        </h1>
-
-                                        <div class="p-t-10 p-b-10" id="tacgia">Tác giả:</div>
-                                        <div class="p-t-10 p-b-10" id="nhaxuatban">Nhà xuất bản:</div>
-                                        <div class="p-t-10 p-b-10" id="namxuatban">Năm xuất bản:</div>
-                                        <!--<div class="p-t-10 p-b-10" id="namphathanh">Năm phát hành: 2005</div>-->
-                                        <div class="p-t-10 p-b-10" id="ngonngu">Ngôn ngữ:</div>
-                                        <div class="p-t-10 p-b-10" id="theloai">Thể loại:</div>
+                                        </h3>
+                                        <div class="p-t-10 p-b-10">Nhà xuất bản:</div>
+                                        <div class="p-t-10 p-b-10">Năm xuất bản:</div>
+                                        <div class="p-t-10 p-b-10">Năm phát hành:</div>
+                                        <div class="p-t-10 p-b-10">Ngôn ngữ:</div>
+                                        <div class="p-t-10 p-b-10">Thể loại:</div>
                                     </div>
 
 
 
 
-                                    <h4 class="m-text25  p-b-5 p-l-15 p-t-40">User comment</h4>
+
+                                    <h4 class="m-text25  p-b-5 p-l-15">User comment</h4>
                                     <!-- box comment -->
-                                    <div class ="col-md-12 p-t-15 p-b-40 list-group border-5 list-group-flush" id="commentlist">
-                                        <!--<a class="list-group-item"><div>user1</div><div>user1 comment</div></a>-->
-                                        <!--<a class="list-group-item"><div>user2</div><div>user2 comment</div></a>-->
-                                        <!--<a class="list-group-item"><div>user3</div><div>user3 comment</div></a>-->
+                                    <div class ="col-md-12 p-t-15 p-b-40 list-group border-5 list-group-flush">
+                                        <a class="list-group-item"><div>user1</div><div>user1 comment</div></a>
+                                        <a class="list-group-item"><div>user2</div><div>user2 comment</div></a>
+                                        <a class="list-group-item"><div>user3</div><div>user3 comment</div></a>
 
 
                                     </div>
@@ -276,7 +299,7 @@
 
 
 
-                                    <form class="leave-comment p-t-30">
+                                    <form class="leave-comment">
                                         <h4 class="m-text25  p-b-5 p-l-15">
                                             Leave a Comment
                                         </h4>
@@ -330,67 +353,74 @@
                         Suggested book
                     </h4>
 
-                    <ul class="bgwhite" id="suggestList">
-                        <li class="flex-w p-b-20" >
-                            <a class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4 recommendDetail1">
-                                <img id="recommendImage1" src="images/item-16.jpg" alt="IMG-PRODUCT">
-                            </a>
-
-                            <div class="w-size23 p-t-5 recommendDetail1">
-                                <a class="s-text20" id="recommendName1">
-                                    Book Name
-                                </a>
-
-                            </div>
-                        </li>
+                    <ul class="bgwhite">
                         <li class="flex-w p-b-20">
-                            <a class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4 recommendDetail2">
-                                <img id="recommendImage2" src="images/item-16.jpg" alt="IMG-PRODUCT">
+                            <a href="product-detail.html" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
+                                <img src="images/item-16.jpg" alt="IMG-PRODUCT">
                             </a>
 
-                            <div class="w-size23 p-t-5 recommendDetail2">
-                                <a class="s-text20" id="recommendName2">
-                                    Book Name
+                            <div class="w-size23 p-t-5">
+                                <a href="product-detail.html" class="s-text20">
+                                    White Shirt With Pleat Detail Back
                                 </a>
 
                             </div>
                         </li>
+
                         <li class="flex-w p-b-20">
-                            <a class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4 recommendDetail3">
-                                <img id="recommendImage3" src="images/item-16.jpg" alt="IMG-PRODUCT">
+                            <a href="product-detail.html" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
+                                <img src="images/item-17.jpg" alt="IMG-PRODUCT">
                             </a>
 
-                            <div class="w-size23 p-t-5 recommendDetail3">
-                                <a class="s-text20" id="recommendName3">
-                                    Book Name
+                            <div class="w-size23 p-t-5">
+                                <a href="product-detail.html" class="s-text20">
+                                    Converse All Star Hi Black Canvas
                                 </a>
+
 
                             </div>
                         </li>
+
                         <li class="flex-w p-b-20">
-                            <a class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4 recommendDetail4">
-                                <img id="recommendImage4" src="images/item-16.jpg" alt="IMG-PRODUCT">
+                            <a href="product-detail.html" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
+                                <img src="images/item-08.jpg" alt="IMG-PRODUCT">
                             </a>
 
-                            <div class="w-size23 p-t-5 recommendDetail4">
-                                <a class="s-text20" id="recommendName4">
-                                    Book Name
+                            <div class="w-size23 p-t-5">
+                                <a href="product-detail.html" class="s-text20">
+                                    Nixon Porter Leather Watch In Tan
                                 </a>
 
-                            </div>
-                        <li class="flex-w p-b-20" id="recommendDetail5">
-                            <a class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4 recommendDetail5">
-                                <img id="recommendImage5" src="images/item-16.jpg" alt="IMG-PRODUCT">
-                            </a>
-
-                            <div class="w-size23 p-t-5 recommendDetail5">
-                                <a class="s-text20" id="recommendName5">
-                                    Book Name
-                                </a>
 
                             </div>
                         </li>
 
+                        <li class="flex-w p-b-20">
+                            <a href="product-detail.html" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
+                                <img src="images/item-03.jpg" alt="IMG-PRODUCT">
+                            </a>
+
+                            <div class="w-size23 p-t-5">
+                                <a href="product-detail.html" class="s-text20">
+                                    Denim jacket blue
+                                </a>
+
+
+                            </div>
+                        </li>
+
+                        <li class="flex-w p-b-20">
+                            <a href="product-detail.html" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
+                                <img src="images/item-05.jpg" alt="IMG-PRODUCT">
+                            </a>
+
+                            <div class="w-size23 p-t-5">
+                                <a href="product-detail.html" class="s-text20">
+                                    Nixon Porter Leather Watch In Tan
+                                </a>
+
+                            </div>
+                        </li>
                     </ul>
 
 
@@ -408,19 +438,22 @@
 
 
 
-<footer class="bg6 p-t-45 p-b-43 p-l-80 ">
+<footer class="bg6 p-t-45 p-b-43 p-l-45 p-r-45">
     <div class="flex-w p-b-90">
         <div class="w-size6 p-t-30 p-l-15 p-r-15 respon3">
             <h4 class="s-text12 p-b-30">GET IN TOUCH</h4>
 
             <div>
                 <p class="s-text7 w-size27">
-                    Any questions?<br> Let us know in HEDSPI Library - HUST <br>or call us on (+84) 0842299904
+                    Any questions?<br> Let us know in HEDSPI Library <br>or call us on (+84) 0842299904
                 </p>
 
                 <div class="flex-m p-t-30">
-                    <a href="https://www.facebook.com/" class="fs-18 color1 p-r-20 fa fa-facebook"></a>
-                    <a href="https://www.instagram.com/junvu95/" class="fs-18 color1 p-r-20 fa fa-instagram"></a>
+                    <a href="#" class="fs-18 color1 p-r-20 fa fa-facebook"></a>
+                    <a href="#" class="fs-18 color1 p-r-20 fa fa-instagram"></a>
+                    <a href="#" class="fs-18 color1 p-r-20 fa fa-pinterest-p"></a>
+                    <a href="#" class="fs-18 color1 p-r-20 fa fa-snapchat-ghost"></a>
+                    <a href="#" class="fs-18 color1 p-r-20 fa fa-youtube-play"></a>
                 </div>
             </div>
         </div>
@@ -429,57 +462,40 @@
             <h4 class="s-text12 p-b-30">Categories</h4>
 
             <ul>
-                <li class="p-b-9"><a href='/search?tag=manga' class="s-text7"> Manga </a></li>
+                <li class="p-b-9"><a href="#" class="s-text7"> Manga </a></li>
 
-                <li class="p-b-9"><a href='/search?tag=Fiction' class="s-text7"> Fiction </a></li>
+                <li class="p-b-9"><a href="#" class="s-text7"> Văn Học </a></li>
 
-                <li class="p-b-9"><a href='/search?tag=tiểu thuyết' class="s-text7"> Novel</a></li>
+                <li class="p-b-9"><a href="#" class="s-text7"> Tiểu Thuyết </a></li>
 
-                <li class="p-b-9"><a href='/search?tag=văn học nước ngoài' class="s-text7"> Foreign Book </a></li>
-
-                <li class="p-b-9"><a href='/search?tag=Fiction' class="s-text7"> Others </a></li>
+                <li class="p-b-9"><a href="#" class="s-text7"> Others </a></li>
             </ul>
         </div>
 
-
-
-
-        <div class="w-size7 p-t-30 p-l-75 p-r-15 respon4">
+        <div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
             <h4 class="s-text12 p-b-30">Links</h4>
 
             <ul>
-                <li class="p-b-9"><a href="search.html" class="s-text7"> Search </a></li>
+                <li class="p-b-9"><a href="#" class="s-text7"> Search </a></li>
 
-                <li class="p-b-9"><a href="about.html" class="s-text7"> About Us </a></li>
+                <li class="p-b-9"><a href="#" class="s-text7"> About Us </a></li>
+
 
             </ul>
         </div>
 
+        <div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
+            <h4 class="s-text12 p-b-30">Help</h4>
 
-        <div class="w-size8 p-t-30 p-l-150 p-r-15 respon3">
-            <h4 class="s-text12 p-b-30">Newsletter</h4>
+            <ul>
 
-            <form>
-                <div class="effect1 w-size9">
-                    <input
-                            class="s-text7 bg6 w-full p-b-5"
-                            type="text"
-                            name="email"
-                            placeholder="email@example.com"
-                    />
-                    <span class="effect1-line"></span>
-                </div>
+                <li class="p-b-9"><a href="#" class="s-text7"> Support </a></li>
 
-                <div class="w-size2 p-t-20">
-
-                    <button
-                            class="flex-c-m size2 bg4 bo-rad-23 hov1 m-text3 trans-0-4"
-                    >
-                        Subscribe
-                    </button>
-                </div>
-            </form>
+                <li class="p-b-9"><a href="#" class="s-text7"> FAQs </a></li>
+            </ul>
         </div>
+
+
     </div>
 
 </footer>
@@ -552,15 +568,35 @@
         type="text/javascript"
         src="vendor/sweetalert/sweetalert.min.js"
 ></script>
+<script type="text/javascript">
+    $(".block2-btn-addcart").each(function() {
+        var nameProduct = $(this)
+            .parent()
+            .parent()
+            .parent()
+            .find(".block2-name")
+            .html();
+        $(this).on("click", function() {
+            swal(nameProduct, "is added to cart !", "success");
+        });
+    });
+
+    $(".block2-btn-addwishlist").each(function() {
+        var nameProduct = $(this)
+            .parent()
+            .parent()
+            .parent()
+            .find(".block2-name")
+            .html();
+        $(this).on("click", function() {
+            swal(nameProduct, "is added to wishlist !", "success");
+        });
+    });
+</script>
 
 <!--
   ===============================================================================================
 -->
 <script src="js/main.js"></script>
-
-<!--<script src="./dev-js/index.js"></script>-->
-<script src="./dev-js/navsearch.js"></script>
-<script src="./dev-js/bookdetail.js"></script>
-
 </body>
 </html>
