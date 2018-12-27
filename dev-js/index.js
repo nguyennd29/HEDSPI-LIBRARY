@@ -1,5 +1,6 @@
 
 $(document).ready(function() {
+    
     $('.logout-nav').hide();
     let url = window.location.href; // or window.location.href for current url
     if((/id=([^&]+)/.exec(url))) {

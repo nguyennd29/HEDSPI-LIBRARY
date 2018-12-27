@@ -9,10 +9,12 @@ $(document).ready(function () {
             method: 'POST',
             data: {username: name, password: pass},
             success: function (data) {
-                // if typeof data.redirect === 'string'
                 console.log(data);
                 $('#log_fail').empty();
+
                 console.log("success");
+                sessionStorage.mySession = data.message;
+
                 window.location.href = data.redirect;
 
 

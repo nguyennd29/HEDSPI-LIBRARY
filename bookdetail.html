@@ -114,31 +114,23 @@
             <div class="topbar-social">
                 <a href="#" class="topbar-social-item fa fa-facebook"></a>
                 <a href="#" class="topbar-social-item fa fa-instagram"></a>
-                <a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
-                <a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
                 <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
             </div>
 
             <span class="topbar-child1"> </span>
 
             <div class="topbar-child2">
-                <span class="topbar-email"> Language </span>
+                <span class="current-user"></span>
 
-                <div class="topbar-language rs1-select2">
-                    <select class="selection-1" name="time">
-                        <option>ENG</option>
-                        <option>VIET</option>
-                        <option>JAP</option>
-                    </select>
-                </div>
             </div>
         </div>
 
-        <div class="wrap_header">
+        <div class="wrap_header px-3">
             <!-- Logo -->
+
             <a href="index.html" class="logo">
                 <!-- <img src="images/icons/logo.png" alt="IMG-LOGO" /> -->
-                <h1>HEDSPI Library</h1>
+                <h2>HEDSPI Library</h2>
             </a>
 
             <!-- Menu -->
@@ -146,7 +138,6 @@
                 <nav class="menu">
                     <ul class="main_menu">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#NewArrival">New Arrival</a></li>
                         <!--
                           <li class="sale-noti">
                               <a href="product.html">Sale</a>
@@ -155,19 +146,30 @@
                         <li>
                             <a href="#Category">Category</a>
                             <ul class="sub_menu">
-                                <li><a href="">Văn Học</a></li>
-                                <li><a href="">Thiếu Nhi</a></li>
-                                <li><a href="">Trinh Thám</a></li>
-                                <li><a href="">Xem thêm >></a></li>
+                                <li><a href='/search?tag=tiểu thuyết'>Novel</a></li>
+                                <li><a href='/search?tag=Fiction'>Fiction </a></li>
+                                <li><a href='/search?tag=văn học nước ngoài'>Foreign Book</a></li>
+
+                                <li><a href='/search?tag=Fiction'>See more >></a></li>
                             </ul>
                         </li>
 
                         <li><a href="about.html">About</a></li>
+                        <li class="login-nav"><a href="/login/login.html">Log In</a></li>
+                        <li class="logout-nav"><a style="cursor: pointer">Log Out</a></li>
 
-                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
+
+            <form id="nav-search" class="pos-relative bo12 of-hidden searchbox">
+                <input class="s-text7 size16 p-l-23 p-r-50 inputbox" type="text" name="nav-keyword" id="nav-keyword" placeholder="Search">
+
+                <button class="flex-c-m size5 ab-r-m color1 color0-hov trans-0-4">
+                    <i class="fs-13 fa fa-search" aria-hidden="true"></i>
+                </button>
+            </form>
+
         </div>
     </div>
 
@@ -195,60 +197,35 @@
     <div class="wrap-side-menu">
         <nav class="side-menu">
             <ul class="main-menu">
-                <li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
-                    <div class="topbar-child2-mobile">
-                        <span class="topbar-email"> Language</span>
 
-                        <div class="topbar-language rs1-select2 ">
-                            <select class="selection-1" name="time">
-                                <option>ENG</option>
-                                <option>VIET</option>
-                                <option>JAP</option>
-                            </select>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="item-topbar-mobile p-l-10">
-                    <div class="topbar-social-mobile">
-                        <a href="#" class="topbar-social-item fa fa-facebook"></a>
-                        <a href="#" class="topbar-social-item fa fa-instagram"></a>
-                        <a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
-                        <a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
-                        <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
-                    </div>
-                </li>
-
+                <li class="item-menu-mobile current-user text-right p-3"></li>
                 <li class="item-menu-mobile"><a href="index.html">Home</a></li>
-
-                <li class="item-menu-mobile">
-                    <a href="product.html">New Arrival</a>
-                </li>
-
+                <li class="item-menu-mobile"><a href="search.html">Search</a></li>
                 <li class="item-menu-mobile">
                     <a>Category</a>
                     <ul class="sub-menu">
-                        <li><a href="">Văn Học</a></li>
-                        <li><a href="">Thiếu Nhi</a></li>
-                        <li><a href="">Trinh Thám</a></li>
-                        <li><a href="">Xem thêm >></a></li>
+                        <li><a href='/search?tag=tiểu thuyết'>Novel</a></li>
+                        <li><a href='/search?tag=Fiction'>Fiction </a></li>
+                        <li><a href='/search?tag=văn học nước ngoài'>Foreign Book</a></li>
+                        <li><a href='/search?tag=Fiction'>See more >></a></li>
                     </ul>
                     <i
                             class="arrow-main-menu fa fa-angle-right"
                             aria-hidden="true"
                     ></i>
                 </li>
-
                 <li class="item-menu-mobile"><a href="about.html">About</a></li>
 
-                <li class="item-menu-mobile"><a href="contact.html">Contact</a></li>
+                <li class="item-menu-mobile login-nav"><a href="/login/login.html">Login</a></li>
+
+
+                <li class="item-menu-mobile logout-nav"><a>Log Out</a></li>
+
+                <!--<li class="item-menu-mobile"><a href="index.html"></a></li>-->
             </ul>
         </nav>
     </div>
 </header>
-
-
-
 
 
 <!-- content page -->
@@ -263,22 +240,29 @@
                                 <div class="row">
                                     <div class="col-md-4 p-b-30">
                                         <div class="hov-img-zoom">
-                                            <img src="images/banner-14.jpg" alt="IMG-ABOUT">
+                                            <img id="bookImage" src="uploads/5.jpg" alt="IMG-ABOUT">
                                         </div>
                                     </div>
                                     <!-- Story + tóm tắt-->
                                     <div class="col-md-8 p-b-30">
-                                        <h3 class="m-text26 p-t-15 p-b-15">
-                                            Our story
+                                        <h3 class="m-text26 p-t-15 p-b-15 font-weight-bold">
+
                                         </h3>
-                                        <p class="p-b-28 text-justify">
-                                            Phasellus egestas nisi nisi, lobortis  quis condimentum ex semper sit amet.  Aliquam aliquam imperdiet sodales. Ut fringilla turpis in vehicula vehicula. Pellentesque congue ac orci ut gravida. Aliquam erat volutpat. Donec iaculis lectus a arcu facilisis, eu sodales lectus sagittis. Etiam pellentesque, magna vel dictum rutrum, neque justo eleifend elit, vel tincidunt erat arcu ut sem. Sed rutrum, turpis ut commodo efficitur, quam velit convallis ipsum, et maximus enim ligula ac ligula. Vivamus tristique vulputate ultricies. Sed vitae ultrices orci.
-                                        </p>
+                                        <div class="p-t-10 p-b-10" id="tacgia">Tác giả: Vũ Trọng Phụng</div>
+                                        <div class="p-t-10 p-b-10" id="nhaxuatban">Nhà xuất bản:Giáo Dục</div>
+                                        <div class="p-t-10 p-b-10" id="namxuatban">Năm xuất bản: 2000</div>
+                                        <div class="p-t-10 p-b-10" id="namphathanh">Năm phát hành: 2005</div>
+                                        <div class="p-t-10 p-b-10" id="ngonngu">Ngôn ngữ: Tiếng Việt</div>
+                                        <div class="p-t-10 p-b-10" id="theloai">Thể loại:Văn Học</div>
                                     </div>
+
+
+
+
 
                                     <h4 class="m-text25  p-b-5 p-l-15">User comment</h4>
                                     <!-- box comment -->
-                                    <div class ="col-md-12 p-t-15 p-b-40 list-group border-5 list-group-flush">
+                                    <div class ="col-md-12 p-t-15 p-b-40 list-group border-5 list-group-flush" id="commentlist">
                                         <a class="list-group-item"><div>user1</div><div>user1 comment</div></a>
                                         <a class="list-group-item"><div>user2</div><div>user2 comment</div></a>
                                         <a class="list-group-item"><div>user3</div><div>user3 comment</div></a>
@@ -289,15 +273,30 @@
 
 
 
+
+
+
                                     <form class="leave-comment">
                                         <h4 class="m-text25  p-b-5 p-l-15">
                                             Leave a Comment
                                         </h4>
 
+                                        <div class="col-md-12 p-t-10 ">Rate this book</div>
+                                        <div class="col-md-12 p-t-20 p-b-10">
+
+                                            <div class="p-r-10 d-inline ui-icon ui-icon-star"><label class="radio-inline "><input type="radio" name="optradio" checked>  1 star</label></div>
+                                            <div class="p-r-10 d-inline"><label class="radio-inline "><input type="radio" name="optradio" >  2 stars</label></div>
+                                            <div class="p-r-10 d-inline"><label class="radio-inline "><input type="radio" name="optradio" >  3 stars</label></div>
+                                            <div class="p-r-10 d-inline"><label class="radio-inline "><input type="radio" name="optradio" >  4 stars</label></div>
+                                            <div class="p-r-10 d-inline"><label class="radio-inline "><input type="radio" name="optradio" >  5 stars</label></div>
+                                        </div>
+
+
                                         <p class="s-text8 p-b-10 p-t-10 p-l-15">
                                             Comment below to share your thought about this book with other people.
                                             <br>Require signed in account to comment.
                                         </p>
+
                                         <textarea class="  s-text7 size18 bo12 ml-3 m-b-20" name="comment" placeholder="Comment..."></textarea>
 
 
@@ -328,7 +327,7 @@
 
                     <!-- Featured Products -->
                     <h4 class="m-text23 p-t-65 p-b-34">
-                        Relative books/New arrivals
+                        Suggested book
                     </h4>
 
                     <ul class="bgwhite">
@@ -547,14 +546,12 @@
         src="vendor/sweetalert/sweetalert.min.js"
 ></script>
 
-
 <!--
   ===============================================================================================
 -->
 <script src="js/main.js"></script>
-<script src="dev-js/bookdetail.js"></script>
+
 <script src="./dev-js/index.js"></script>
 <script src="./dev-js/navsearch.js"></script>
-
 </body>
 </html>

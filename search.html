@@ -114,23 +114,14 @@
             <div class="topbar-social">
                 <a href="#" class="topbar-social-item fa fa-facebook"></a>
                 <a href="#" class="topbar-social-item fa fa-instagram"></a>
-                <a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
-                <a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
                 <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
             </div>
 
             <span class="topbar-child1"> </span>
 
             <div class="topbar-child2">
-                <span class="topbar-email"> Language </span>
+                <span class="current-user"></span>
 
-                <div class="topbar-language rs1-select2">
-                    <select class="selection-1" name="time">
-                        <option>ENG</option>
-                        <option>VIET</option>
-                        <option>JAP</option>
-                    </select>
-                </div>
             </div>
         </div>
 
@@ -155,32 +146,24 @@
                         <li>
                             <a href="#Category">Category</a>
                             <ul class="sub_menu">
-                                <li><a href="">Văn Học</a></li>
-                                <li><a href="">Thiếu Nhi</a></li>
-                                <li><a href="">Trinh Thám</a></li>
-                                <li><a href="">Xem thêm >></a></li>
+                                <li><a href='/search?tag=tiểu thuyết'>Novel</a></li>
+                                <li><a href='/search?tag=Fiction'>Fiction </a></li>
+                                <li><a href='/search?tag=văn học nước ngoài'>Foreign Book</a></li>
+
+                                <li><a href='/search?tag=Fiction'>See more >></a></li>
                             </ul>
                         </li>
 
                         <li><a href="about.html">About</a></li>
-
-                        <!--<li><a href="contact.html">Contact</a></li>-->
-                        <li><a href="/login/login.html">Log In</a></li>
-                        <!--<li><a href="register.html">Sign up</a></li>-->
+                        <li class="login-nav"><a href="/login/login.html">Log In</a></li>
+                        <li class="logout-nav"><a style="cursor: pointer">Log Out</a></li>
 
                     </ul>
                 </nav>
             </div>
-            <!--<form id="search" method="post" class="search-product pos-relative bo4 of-hidden">-->
-                <!--<input class="s-text7 size6 p-l-23 p-r-50" type="text" name="keyword" id="keyword" placeholder="Search">-->
-
-                <!--<button type="submit" class="flex-c-m size5 ab-r-m color2 color0-hov trans-0-4">-->
-                    <!--<i class="fs-12 fa fa-search" aria-hidden="true"></i>-->
-                <!--</button>-->
-            <!--</form>-->
 
             <form id="nav-search" class="pos-relative bo12 of-hidden searchbox">
-                <input class="s-text7 size16 p-l-23 p-r-50 inputbox" type="text" name="search-product" id="nav-keyword" placeholder="Search">
+                <input class="s-text7 size16 p-l-23 p-r-50 inputbox" type="text" name="nav-keyword" id="nav-keyword" placeholder="Search">
 
                 <button class="flex-c-m size5 ab-r-m color1 color0-hov trans-0-4">
                     <i class="fs-13 fa fa-search" aria-hidden="true"></i>
@@ -214,53 +197,31 @@
     <div class="wrap-side-menu">
         <nav class="side-menu">
             <ul class="main-menu">
-                <li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
-                    <div class="topbar-child2-mobile">
-                        <span class="topbar-email"> Language</span>
 
-                        <div class="topbar-language rs1-select2 ">
-                            <select class="selection-1" name="time">
-                                <option>ENG</option>
-                                <option>VIET</option>
-                                <option>JAP</option>
-                            </select>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="item-topbar-mobile p-l-10">
-                    <div class="topbar-social-mobile">
-                        <a href="#" class="topbar-social-item fa fa-facebook"></a>
-                        <a href="#" class="topbar-social-item fa fa-instagram"></a>
-                        <a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
-                        <a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
-                        <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
-                    </div>
-                </li>
-
+                <li class="item-menu-mobile current-user text-right p-3"></li>
                 <li class="item-menu-mobile"><a href="index.html">Home</a></li>
-
-                <li class="item-menu-mobile">
-                    <a href="product.html">New Arrival</a>
-                </li>
-
+                <li class="item-menu-mobile"><a href="search.html">Search</a></li>
                 <li class="item-menu-mobile">
                     <a>Category</a>
                     <ul class="sub-menu">
-                        <li><a href="">Văn Học</a></li>
-                        <li><a href="">Thiếu Nhi</a></li>
-                        <li><a href="">Trinh Thám</a></li>
-                        <li><a href="">Xem thêm >></a></li>
+                        <li><a href='/search?tag=tiểu thuyết'>Novel</a></li>
+                        <li><a href='/search?tag=Fiction'>Fiction </a></li>
+                        <li><a href='/search?tag=văn học nước ngoài'>Foreign Book</a></li>
+                        <li><a href='/search?tag=Fiction'>See more >></a></li>
                     </ul>
                     <i
                             class="arrow-main-menu fa fa-angle-right"
                             aria-hidden="true"
                     ></i>
                 </li>
-
                 <li class="item-menu-mobile"><a href="about.html">About</a></li>
 
-                <li class="item-menu-mobile"><a href="contact.html">Contact</a></li>
+                <li class="item-menu-mobile login-nav"><a href="/login/login.html">Login</a></li>
+
+
+                <li class="item-menu-mobile logout-nav"><a>Log Out</a></li>
+
+                <!--<li class="item-menu-mobile"><a href="index.html"></a></li>-->
             </ul>
         </nav>
     </div>
@@ -308,33 +269,53 @@
                             <!--</a>-->
                         <!--</li>-->
                         <li class="p-t-4">
-                            <a href="#" class="s-text13">
-                                Tiểu thuyết
+                            <a href='/search?tag=tiểu thuyết' class="s-text13">
+                                Novel
                             </a>
                         </li>
                         <li class="p-t-4">
-                            <a href="#" class="s-text13">
+                            <a href='/search?tag=Fiction' class="s-text13">
                                 Fiction
                             </a>
                         </li>
 
                         <li class="p-t-4">
-                            <a href="#" class="s-text13">
-                                Văn học nước ngoài
+                            <a href='/search?tag=văn học nước ngoài' class="s-text13">
+                                Foreign Book
+                            </a>
+                        </li>
+
+
+                        <li class="p-t-4">
+                            <a href='/search?tag=thiếu nhi' class="s-text13">
+                                Kids
                             </a>
                         </li>
 
                         <li class="p-t-4">
-                            <a href="#" class="s-text13">
-                                Manga
+                            <a href='/search?tag=trinh thám' class="s-text13">
+                                Detective
                             </a>
                         </li>
 
                         <li class="p-t-4">
-                            <a href="#" class="s-text13">
-                                Thiếu nhi
+                            <a href='/search?tag=truyện ngắn' class="s-text13">
+                                Short Story
                             </a>
                         </li>
+
+                        <li class="p-t-4">
+                            <a href='/search?tag=tình cảm' class="s-text13">
+                                Love Novel
+                            </a>
+                        </li>
+
+                        <li class="p-t-4">
+                            <a href='/search?tag=văn học trong nước' class="s-text13">
+                                Literature
+                            </a>
+                        </li>
+
                     </ul>
 
                     <!--&lt;!&ndash;  &ndash;&gt;-->

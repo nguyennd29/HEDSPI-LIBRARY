@@ -5,12 +5,13 @@ $(document).ready(function() {
         let captured = /id=([^&]+)/.exec(url)[1]; // Value is in [1] ('384' in our case)
         let bookid = captured ? captured : 1;
         console.log(bookid);
-        $('#result-list').empty();
         $.ajax({
             url: `http://localhost:6969/api/book/${bookid}`,
             method: 'GET',
             success: function (data) {
                console.log(data);
+
+
             },
             error: function () {
                 console.log("error");
