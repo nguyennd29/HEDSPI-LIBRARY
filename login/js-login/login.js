@@ -13,7 +13,7 @@ $(document).ready(function () {
                 console.log(data);
                 $('#log_fail').empty();
                 console.log("success");
-                // window.location.href = data.redirect;
+                window.location.href = data.redirect;
 
 
             },
