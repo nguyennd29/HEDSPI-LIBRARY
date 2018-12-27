@@ -13,7 +13,7 @@ $(document).ready(function () {
                 $('#log_fail').empty();
 
                 console.log("success");
-                sessionStorage.mySession = data.message;
+                sessionStorage.mySession = data.userid;
 
                 window.location.href = data.redirect;
 
