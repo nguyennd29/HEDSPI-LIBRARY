@@ -122,32 +122,24 @@
             <span class="topbar-child1"> </span>
 
             <div class="topbar-child2">
-                <span class="topbar-email"> Language </span>
+                <span class="current-user"></span>
 
-                <div class="topbar-language rs1-select2">
-                    <select class="selection-1" name="time">
-                        <option>ENG</option>
-                        <option>VIET</option>
-                        <option>JAP</option>
-                    </select>
-                </div>
             </div>
         </div>
 
         <div class="wrap_header px-3">
             <!-- Logo -->
 
-            <div href="index.html" class="logo">
+            <a href="index.html" class="logo">
                 <!-- <img src="images/icons/logo.png" alt="IMG-LOGO" /> -->
                 <h2>HEDSPI Library</h2>
-            </div>
+            </a>
 
             <!-- Menu -->
             <div class="wrap_menu">
                 <nav class="menu">
                     <ul class="main_menu">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#NewArrival">New Arrival</a></li>
                         <!--
                           <li class="sale-noti">
                               <a href="product.html">Sale</a>
@@ -164,19 +156,20 @@
                         </li>
 
                         <li><a href="about.html">About</a></li>
+                        <li class="login-nav"><a href="/login/login.html">Log In</a></li>
+                        <li class="logout-nav"><a>Log Out</a></li>
 
-                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
              </div>
 
-            <div class="pos-relative bo12 of-hidden searchbox">
-                <input class="s-text7 size16 p-l-23 p-r-50 inputbox" type="text" name="search-product" placeholder="Search">
+            <form id="nav-search" class="pos-relative bo12 of-hidden searchbox">
+                <input class="s-text7 size16 p-l-23 p-r-50 inputbox" type="text" name="nav-keyword" id="nav-keyword" placeholder="Search">
 
                 <button class="flex-c-m size5 ab-r-m color1 color0-hov trans-0-4">
                     <i class="fs-13 fa fa-search" aria-hidden="true"></i>
                 </button>
-            </div>
+            </form>
 
         </div>
     </div>
@@ -205,36 +198,11 @@
     <div class="wrap-side-menu">
         <nav class="side-menu">
             <ul class="main-menu">
-                <li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
-                    <div class="topbar-child2-mobile">
-                        <span class="topbar-email"> Language</span>
 
-                        <div class="topbar-language rs1-select2 ">
-                            <select class="selection-1" name="time">
-                                <option>ENG</option>
-                                <option>VIET</option>
-                                <option>JAP</option>
-                            </select>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="item-topbar-mobile p-l-10">
-                    <div class="topbar-social-mobile">
-                        <a href="#" class="topbar-social-item fa fa-facebook"></a>
-                        <a href="#" class="topbar-social-item fa fa-instagram"></a>
-                        <a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
-                        <a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
-                        <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
-                    </div>
-                </li>
 
                 <li class="item-menu-mobile"><a href="index.html">Home</a></li>
-
-                <li class="item-menu-mobile">
-                    <a href="product.html">New Arrival</a>
-                </li>
-
+                <li class="item-menu-mobile"><a href="search.html">Search</a></li>
+                <li class="item-menu-mobile login-nav"><a href="/login/login.html">Login</a></li>
                 <li class="item-menu-mobile">
                     <a>Category</a>
                     <ul class="sub-menu">
@@ -250,8 +218,9 @@
                 </li>
 
                 <li class="item-menu-mobile"><a href="about.html">About</a></li>
+                <li class="item-menu-mobile logout-nav"><a>Log Out</a></li>
 
-                <li class="item-menu-mobile"><a href="contact.html">Contact</a></li>
+                <!--<li class="item-menu-mobile"><a href="index.html"></a></li>-->
             </ul>
         </nav>
     </div>
@@ -379,7 +348,7 @@
             <h3 class="m-text5 t-center">Category</h3>
         </div>
         <div class="row">
-            <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
+            <div class="col-sm-10 col-md-8 col-lg-3 m-l-r-auto">
                 <!-- block1 -->
                 <div class="block1 hov-img-zoom pos-relative m-b-30">
                     <img src="images/mybanner/manga-cover.jpeg" alt="IMG-BENNER"/>
@@ -405,7 +374,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
+            <div class="col-sm-10 col-md-8 col-lg-3 m-l-r-auto">
                 <!-- block1 -->
                 <div class="block1 hov-img-zoom pos-relative m-b-30">
                     <img src="images/mybanner/vanhoc-cover1.jpeg" alt="IMG-BENNER"/>
@@ -431,7 +400,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
+            <div class="col-sm-10 col-md-8 col-lg-3 m-l-r-auto">
                 <!-- block1 -->
                 <div class="block1 hov-img-zoom pos-relative m-b-30">
                     <img src="images/mybanner/novel-cover 2.jpeg" alt="IMG-BENNER"/>
@@ -482,20 +451,20 @@
 
         <!-- Slide2 -->
         <div class="wrap-slick2">
-            <div class="slick2">
+            <div class="slick2" id="recommendBook">
                 <div class="item-slick2 p-l-15 p-r-15">
                     <!-- Block2 -->
                     <div class="block2">
                         <div
                                 class="block2-img wrap-pic-w of-hidden pos-relative"
                         >
-                            <img src="images/mybanner/novel-cover 2.jpeg" alt="IMG-PRODUCT"/>
+                            <img width="270px" height="420px" id="recommendImage1" src="images/item-05.jpg" alt="IMG-PRODUCT"/>
 
                             <div class="block2-overlay trans-0-4">
 
                                 <div class="block2-btn-addcart w-size1 trans-0-4">
                                     <!-- Button -->
-                                    <button
+                                    <button id="recommendDetail1"
                                             class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4"
                                     >
                                         Detail
@@ -509,41 +478,31 @@
                                     href="product-detail.html"
                                     class="block2-name dis-block s-text3 p-b-5"
                             >
-                                FIVE FEET APART
+                                <div id="recommendName1">book name</div>
                             </a>
 
-                            <span class="block2-price m-text6 p-r-5"> Rating: 4.8/5 </span>
+                            <span id="recommendRating1" class="block2-price m-text6 p-r-5"> RATING:4.0/5 </span>
                         </div>
                     </div>
                 </div>
 
+
                 <div class="item-slick2 p-l-15 p-r-15">
                     <!-- Block2 -->
                     <div class="block2">
-                        <div class="block2-img wrap-pic-w of-hidden pos-relative">
-                            <img src="images/mybanner/manga-cover.jpeg" alt="IMG-PRODUCT"/>
+                        <div
+                                class="block2-img wrap-pic-w of-hidden pos-relative"
+                        >
+                            <img width="270px" height="420px" id="recommendImage2" src="images/item-05.jpg" alt="IMG-PRODUCT"/>
 
                             <div class="block2-overlay trans-0-4">
-                                <a
-                                        href="#"
-                                        class="block2-btn-addwishlist hov-pointer trans-0-4"
-                                >
-                                    <i
-                                            class="icon-wishlist icon_heart_alt"
-                                            aria-hidden="true"
-                                    ></i>
-                                    <i
-                                            class="icon-wishlist icon_heart dis-none"
-                                            aria-hidden="true"
-                                    ></i>
-                                </a>
 
                                 <div class="block2-btn-addcart w-size1 trans-0-4">
                                     <!-- Button -->
-                                    <button
+                                    <button id="recommendDetail2"
                                             class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4"
                                     >
-                                        Add to Cart
+                                        Detail
                                     </button>
                                 </div>
                             </div>
@@ -554,55 +513,10 @@
                                     href="product-detail.html"
                                     class="block2-name dis-block s-text3 p-b-5"
                             >
-                                SWORD ART ONLINE
+                                <div id="recommendName2">book name</div>
                             </a>
 
-                            <span class="block2-price m-text6 p-r-5"> RATING:4.0/5 </span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item-slick2 p-l-15 p-r-15">
-                    <!-- Block2 -->
-                    <div class="block2">
-                        <div class="block2-img wrap-pic-w of-hidden pos-relative">
-                            <img src="images/mybanner/vanhoc-cover1.jpeg" alt="IMG-PRODUCT"/>
-
-                            <div class="block2-overlay trans-0-4">
-                                <a
-                                        href="#"
-                                        class="block2-btn-addwishlist hov-pointer trans-0-4"
-                                >
-                                    <i
-                                            class="icon-wishlist icon_heart_alt"
-                                            aria-hidden="true"
-                                    ></i>
-                                    <i
-                                            class="icon-wishlist icon_heart dis-none"
-                                            aria-hidden="true"
-                                    ></i>
-                                </a>
-
-                                <div class="block2-btn-addcart w-size1 trans-0-4">
-                                    <!-- Button -->
-                                    <button
-                                            class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4"
-                                    >
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="block2-txt p-t-20">
-                            <a
-                                    href="product-detail.html"
-                                    class="block2-name dis-block s-text3 p-b-5"
-                            >
-                                CHO TÔI XIN MỘT VÉ VỀ TUỔI THƠ
-                            </a>
-
-                            <span class="block2-price m-text6 p-r-5"> RATING: 4.9/5 </span>
+                            <span id="recommendRating2" class="block2-price m-text6 p-r-5"> RATING:4.0/5 </span>
                         </div>
                     </div>
                 </div>
@@ -613,29 +527,16 @@
                         <div
                                 class="block2-img wrap-pic-w of-hidden pos-relative"
                         >
-                            <img src="images/mybanner/kid-cover2.jpeg" alt="IMG-PRODUCT"/>
+                            <img width="270px" height="420px" id="recommendImage3" src="images/item-05.jpg" alt="IMG-PRODUCT"/>
 
                             <div class="block2-overlay trans-0-4">
-                                <a
-                                        href="#"
-                                        class="block2-btn-addwishlist hov-pointer trans-0-4"
-                                >
-                                    <i
-                                            class="icon-wishlist icon_heart_alt"
-                                            aria-hidden="true"
-                                    ></i>
-                                    <i
-                                            class="icon-wishlist icon_heart dis-none"
-                                            aria-hidden="true"
-                                    ></i>
-                                </a>
 
                                 <div class="block2-btn-addcart w-size1 trans-0-4">
                                     <!-- Button -->
-                                    <button
+                                    <button id="recommendDetail3"
                                             class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4"
                                     >
-                                        Add to Cart
+                                        Detail
                                     </button>
                                 </div>
                             </div>
@@ -646,12 +547,10 @@
                                     href="product-detail.html"
                                     class="block2-name dis-block s-text3 p-b-5"
                             >
-                                TRUYỆN KỂ HÀNG ĐÊM
+                                <div id="recommendName3">book name</div>
                             </a>
 
-                            <!-- <span class="block2-oldprice m-text7 p-r-5"> RATING:4.2/5 </span> -->
-                            <span class="block2-price m-text6 p-r-5"> RATING: 4.9/5 </span>
-                            <!-- <span class="block2-newprice m-text8 p-r-5"> $15.90 </span> -->
+                            <span id="recommendRating3" class="block2-price m-text6 p-r-5"> RATING:4.0/5 </span>
                         </div>
                     </div>
                 </div>
@@ -660,31 +559,18 @@
                     <!-- Block2 -->
                     <div class="block2">
                         <div
-                                class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew"
+                                class="block2-img wrap-pic-w of-hidden pos-relative"
                         >
-                            <img src="images/item-02.jpg" alt="IMG-PRODUCT"/>
+                            <img width="270px" height="420px" id="recommendImage4" src="images/item-05.jpg" alt="IMG-PRODUCT"/>
 
                             <div class="block2-overlay trans-0-4">
-                                <a
-                                        href="#"
-                                        class="block2-btn-addwishlist hov-pointer trans-0-4"
-                                >
-                                    <i
-                                            class="icon-wishlist icon_heart_alt"
-                                            aria-hidden="true"
-                                    ></i>
-                                    <i
-                                            class="icon-wishlist icon_heart dis-none"
-                                            aria-hidden="true"
-                                    ></i>
-                                </a>
 
                                 <div class="block2-btn-addcart w-size1 trans-0-4">
                                     <!-- Button -->
-                                    <button
+                                    <button id="recommendDetail4"
                                             class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4"
                                     >
-                                        Add to Cart
+                                        Detail
                                     </button>
                                 </div>
                             </div>
@@ -695,100 +581,10 @@
                                     href="product-detail.html"
                                     class="block2-name dis-block s-text3 p-b-5"
                             >
-                                Herschel supply co 25l
+                                <div id="recommendName4">book name</div>
                             </a>
 
-                            <span class="block2-price m-text6 p-r-5"> $75.00 </span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item-slick2 p-l-15 p-r-15">
-                    <!-- Block2 -->
-                    <div class="block2">
-                        <div class="block2-img wrap-pic-w of-hidden pos-relative">
-                            <img src="images/item-03.jpg" alt="IMG-PRODUCT"/>
-
-                            <div class="block2-overlay trans-0-4">
-                                <a
-                                        href="#"
-                                        class="block2-btn-addwishlist hov-pointer trans-0-4"
-                                >
-                                    <i
-                                            class="icon-wishlist icon_heart_alt"
-                                            aria-hidden="true"
-                                    ></i>
-                                    <i
-                                            class="icon-wishlist icon_heart dis-none"
-                                            aria-hidden="true"
-                                    ></i>
-                                </a>
-
-                                <div class="block2-btn-addcart w-size1 trans-0-4">
-                                    <!-- Button -->
-                                    <button
-                                            class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4"
-                                    >
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="block2-txt p-t-20">
-                            <a
-                                    href="product-detail.html"
-                                    class="block2-name dis-block s-text3 p-b-5"
-                            >
-                                Denim jacket blue
-                            </a>
-
-                            <span class="block2-price m-text6 p-r-5"> $92.50 </span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item-slick2 p-l-15 p-r-15">
-                    <!-- Block2 -->
-                    <div class="block2">
-                        <div class="block2-img wrap-pic-w of-hidden pos-relative">
-                            <img src="images/item-05.jpg" alt="IMG-PRODUCT"/>
-
-                            <div class="block2-overlay trans-0-4">
-                                <a
-                                        href="#"
-                                        class="block2-btn-addwishlist hov-pointer trans-0-4"
-                                >
-                                    <i
-                                            class="icon-wishlist icon_heart_alt"
-                                            aria-hidden="true"
-                                    ></i>
-                                    <i
-                                            class="icon-wishlist icon_heart dis-none"
-                                            aria-hidden="true"
-                                    ></i>
-                                </a>
-
-                                <div class="block2-btn-addcart w-size1 trans-0-4">
-                                    <!-- Button -->
-                                    <button
-                                            class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4"
-                                    >
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="block2-txt p-t-20">
-                            <a
-                                    href="product-detail.html"
-                                    class="block2-name dis-block s-text3 p-b-5"
-                            >
-                                Coach slim easton black
-                            </a>
-
-                            <span class="block2-price m-text6 p-r-5"> $165.90 </span>
+                            <span id="recommendRating4" class="block2-price m-text6 p-r-5"> RATING:4.0/5 </span>
                         </div>
                     </div>
                 </div>
@@ -797,31 +593,18 @@
                     <!-- Block2 -->
                     <div class="block2">
                         <div
-                                class="block2-img wrap-pic-w of-hidden pos-relative block2-labelsale"
+                                class="block2-img wrap-pic-w of-hidden pos-relative"
                         >
-                            <img src="images/item-07.jpg" alt="IMG-PRODUCT"/>
+                            <img width="270px" height="420px" id="recommendImage5" src="images/item-05.jpg" alt="IMG-PRODUCT"/>
 
                             <div class="block2-overlay trans-0-4">
-                                <a
-                                        href="#"
-                                        class="block2-btn-addwishlist hov-pointer trans-0-4"
-                                >
-                                    <i
-                                            class="icon-wishlist icon_heart_alt"
-                                            aria-hidden="true"
-                                    ></i>
-                                    <i
-                                            class="icon-wishlist icon_heart dis-none"
-                                            aria-hidden="true"
-                                    ></i>
-                                </a>
 
                                 <div class="block2-btn-addcart w-size1 trans-0-4">
                                     <!-- Button -->
-                                    <button
+                                    <button id="recommendDetail5"
                                             class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4"
                                     >
-                                        Add to Cart
+                                        Detail
                                     </button>
                                 </div>
                             </div>
@@ -832,15 +615,117 @@
                                     href="product-detail.html"
                                     class="block2-name dis-block s-text3 p-b-5"
                             >
-                                Frayed denim shorts
+                                <div id="recommendName5">book name</div>
                             </a>
 
-                            <span class="block2-oldprice m-text7 p-r-5"> $29.50 </span>
-
-                            <span class="block2-newprice m-text8 p-r-5"> $15.90 </span>
+                            <span id="recommendRating5" class="block2-price m-text6 p-r-5"> RATING:4.0/5 </span>
                         </div>
                     </div>
                 </div>
+
+                <div class="item-slick2 p-l-15 p-r-15">
+                    <!-- Block2 -->
+                    <div class="block2">
+                        <div
+                                class="block2-img wrap-pic-w of-hidden pos-relative"
+                        >
+                            <img width="270px" height="420px" id="recommendImage6" src="images/item-05.jpg" alt="IMG-PRODUCT"/>
+
+                            <div class="block2-overlay trans-0-4">
+
+                                <div class="block2-btn-addcart w-size1 trans-0-4">
+                                    <!-- Button -->
+                                    <button id="recommendDetail6"
+                                            class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4"
+                                    >
+                                        Detail
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block2-txt p-t-20">
+                            <a
+                                    href="product-detail.html"
+                                    class="block2-name dis-block s-text3 p-b-5"
+                            >
+                                <div id="recommendName6">book name</div>
+                            </a>
+
+                            <span id="recommendRating6" class="block2-price m-text6 p-r-5"> RATING:4.0/5 </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-slick2 p-l-15 p-r-15">
+                    <!-- Block2 -->
+                    <div class="block2">
+                        <div
+                                class="block2-img wrap-pic-w of-hidden pos-relative"
+                        >
+                            <img width="270px" height="420px" id="recommendImage7" src="images/item-05.jpg" alt="IMG-PRODUCT"/>
+
+                            <div class="block2-overlay trans-0-4">
+
+                                <div class="block2-btn-addcart w-size1 trans-0-4">
+                                    <!-- Button -->
+                                    <button id="recommendDetail7"
+                                            class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4"
+                                    >
+                                        Detail
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block2-txt p-t-20">
+                            <a
+                                    href="product-detail.html"
+                                    class="block2-name dis-block s-text3 p-b-5"
+                            >
+                                <div id="recommendName7">book name</div>
+                            </a>
+
+                            <span id="recommendRating7" class="block2-price m-text6 p-r-5"> RATING:4.0/5 </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-slick2 p-l-15 p-r-15">
+                    <!-- Block2 -->
+                    <div class="block2">
+                        <div
+                                class="block2-img wrap-pic-w of-hidden pos-relative"
+                        >
+                            <img width="270px" height="420px" id="recommendImage8" src="images/item-05.jpg" alt="IMG-PRODUCT"/>
+
+                            <div class="block2-overlay trans-0-4">
+
+                                <div class="block2-btn-addcart w-size1 trans-0-4">
+                                    <!-- Button -->
+                                    <button id="recommendDetail8"
+                                            class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4"
+                                    >
+                                        Detail
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block2-txt p-t-20">
+                            <a
+                                    href="product-detail.html"
+                                    class="block2-name dis-block s-text3 p-b-5"
+                            >
+                                <div id="recommendName8">book name</div>
+                            </a>
+
+                            <span id="recommendRating8" class="block2-price m-text6 p-r-5"> RATING:4.0/5 </span>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </div>
@@ -1401,5 +1286,10 @@
   ===============================================================================================
 -->
 <script src="js/main.js"></script>
+<script src="./dev-js/index.js"></script>
+<script src="./dev-js/navsearch.js"></script>
+<!--<script src="dev-js/index-session.js"></script>-->
+
+
 </body>
 </html>
