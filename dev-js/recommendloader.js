@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     $.ajax({
-        url: 'https://lib-server.herokuapp.com/api/commend'||'http://localhost:6969/api/recommend',
+        url: 'https://lib-server.herokuapp.com/api/recommend'||'http://localhost:6969/api/recommend',
 
         method: 'GET',
         success: function (data) {
