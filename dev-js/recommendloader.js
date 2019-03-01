@@ -1,8 +1,7 @@
 $(document).ready(function() {
 
     $.ajax({
-        // url:'https://realserver :v/api/auth/login'||'http://localhost:6969/api/recommend',
-        url: 'http://localhost:6969/api/recommend',
+        url: 'https://lib-server.herokuapp.com/api/commend'||'http://localhost:6969/api/recommend',
 
         method: 'GET',
         success: function (data) {

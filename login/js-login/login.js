@@ -5,8 +5,7 @@ $(document).ready(function () {
         var name = $('#username').val();
         var pass = $('#password').val();
         $.ajax({
-            // url: 'https://svflirt.herokuapp.com/api/auth/login'||'http://localhost:6969/api/auth/login',
-            url: 'http://localhost:6969/api/auth/login',
+            url: `https://lib-server.herokuapp.com/api/auth/login`||'http://localhost:6969/api/auth/login',
             method: 'POST',
             data: {username: name, password: pass},
             success: function (data) {

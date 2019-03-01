@@ -8,7 +8,7 @@ $(document).ready(function() {
 
     if (sessiondata!=null) {
         $.ajax({
-            url: `http://localhost:6969/api/user/id/${sessiondata}`,
+            url: `https://lib-server.herokuapp.com/api/user/id${sessiondata}`||`http://localhost:6969/api/user/id/${sessiondata}`,
             method: 'GET',
             success: function (data) {
                 $('.current-user').show();
@@ -27,7 +27,7 @@ $(document).ready(function() {
 
     $.ajax({
         // url:'https://realserver :v/api/auth/login'||'http://localhost:6969/api/recommend',
-        url:'http://localhost:6969/api/recommend',
+        url:'https://lib-server.herokuapp.com/'||'http://localhost:6969/api/recommend',
 
         method: 'GET',
         success: function(data) {
