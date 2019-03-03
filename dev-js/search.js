@@ -23,7 +23,7 @@ $(document).ready(function() {
 
                                     <div class="block2-btn-addcart w-size1 trans-0-4">
                                         <!-- Button -->
-                                        <button onclick="window.location.href='/bookdetail?id=${bookItem.bookid}'" class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                        <button onclick="window.location.href='/bookdetail.html?id=${bookItem.bookid}'" class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
                                             Detail
                                         </button>
                                     </div>
@@ -31,7 +31,7 @@ $(document).ready(function() {
                             </div>
 
                             <div class="block2-txt p-t-20">
-                                <a href="/bookdetail?id=${bookItem.bookid}" class="block2-name dis-block m-text6 p-b-5">
+                                <a href="/bookdetail.html?id=${bookItem.bookid}" class="block2-name dis-block m-text6 p-b-5">
                                     ${bookItem.bookname}
                                 </a>
 
@@ -78,7 +78,7 @@ $(document).ready(function() {
 
                                     <div class="block2-btn-addcart w-size1 trans-0-4">
                                         <!-- Button -->
-                                        <button onclick="window.location.href='/bookdetail?id=${bookItem.bookid}'" class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                        <button onclick="window.location.href='/bookdetail.html?id=${bookItem.bookid}'" class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
                                             Detail
                                         </button>
                                     </div>
@@ -86,7 +86,7 @@ $(document).ready(function() {
                             </div>
 
                             <div class="block2-txt p-t-20">
-                                <a href="/bookdetail?id=${bookItem.bookid}" class="block2-name dis-block m-text6 p-b-5">
+                                <a href="/bookdetail.html?id=${bookItem.bookid}" class="block2-name dis-block m-text6 p-b-5">
                                     ${bookItem.bookname}
                                 </a>
 
@@ -132,7 +132,7 @@ $(document).ready(function() {
 
                                     <div class="block2-btn-addcart w-size1 trans-0-4">
                                         <!-- Button -->
-                                        <button onclick="window.location.href='/bookdetail?id=${bookItem.bookid}'" class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                        <button onclick="window.location.href='/bookdetail.html?id=${bookItem.bookid}'" class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
                                             Detail
                                         </button>
                                     </div>
@@ -140,7 +140,7 @@ $(document).ready(function() {
                             </div>
 
                             <div class="block2-txt p-t-20">
-                                <a href="/bookdetail?id=${bookItem.bookid}" class="block2-name dis-block m-text6 p-b-5">
+                                <a href="/bookdetail.html?id=${bookItem.bookid}" class="block2-name dis-block m-text6 p-b-5">
                                     ${bookItem.bookname}
                                 </a>
 
@@ -186,7 +186,7 @@ $(document).ready(function() {
 
                                     <div class="block2-btn-addcart w-size1 trans-0-4">
                                         <!-- Button -->
-                                        <button onclick="window.location.href='/bookdetail?id=${bookItem.bookid}'" class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                        <button onclick="window.location.href='/bookdetail.html?id=${bookItem.bookid}'" class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
                                             Detail
                                         </button>
                                     </div>
@@ -194,7 +194,7 @@ $(document).ready(function() {
                             </div>
 
                             <div class="block2-txt p-t-20">
-                                <a href="/bookdetail?id=${bookItem.bookid}" class="block2-name dis-block m-text6 p-b-5">
+                                <a href="/bookdetail.html?id=${bookItem.bookid}" class="block2-name dis-block m-text6 p-b-5">
                                     ${bookItem.bookname}
                                 </a>
 
