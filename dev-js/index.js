@@ -8,7 +8,7 @@ $(document).ready(function() {
 
     if (sessiondata!=null) {
         $.ajax({
-            url: `https://lib-server.azurewebsites.net/api/user/id${sessiondata}`||`http://localhost:6969/api/user/id/${sessiondata}`,
+            url: `https://lib-server.herokuapp.com/api/user/id${sessiondata}`||`http://localhost:6969/api/user/id/${sessiondata}`,
             method: 'GET',
             success: function (data) {
                 $('.current-user').show();

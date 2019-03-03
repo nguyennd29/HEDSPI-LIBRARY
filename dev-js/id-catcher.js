@@ -11,7 +11,7 @@ $(document).ready(function() {
         console.log(userid);
 
         $.ajax({
-            url: `https://lib-server.azurewebsites.net/api/user/${userid}`||`http://localhost:6969/api/user/${userid}`,
+            url: `https://lib-server.herokuapp.com/api/user/${userid}`||`http://localhost:6969/api/user/${userid}`,
             method: 'GET',
             success: function (data) {
                 $('.current-user').html(`Hello ${data.user[0].username} !`);

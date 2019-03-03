@@ -41,7 +41,7 @@ $(document).ready(function () {
 					`);
         } else {
             $.ajax({
-                url: `https://lib-server.azurewebsites.net/api/user/username/username`||'http://localhost:6969/api/user/username/username',
+                url: `https://lib-server.herokuapp.com/api/user/username/username`||'http://localhost:6969/api/user/username/username',
                 method: 'GET',
                 success: function (data) {
                     console.log(data);
@@ -53,12 +53,12 @@ $(document).ready(function () {
                     }
                     else{
                         $.ajax({
-                            url: `https://lib-server.azurewebsites.net/api/user/`||'http://localhost:6969/api/user/',
+                            url: `https://lib-server.herokuapp.com/api/user/`||'http://localhost:6969/api/user/',
                             method: 'POST',
                             data: {username: name, password: pass ,email:email, age:age,address:address},
                             success: function () {
                                 $.ajax({
-                                    url: `https://lib-server.azurewebsites.net/api/auth/login`||'http://localhost:6969/api/auth/login',
+                                    url: `https://lib-server.herokuapp.com/api/auth/login`||'http://localhost:6969/api/auth/login',
                                     method: 'POST',
                                     data: {username: name, password: pass},
                                     success: function (data) {

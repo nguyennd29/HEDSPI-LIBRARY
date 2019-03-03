@@ -31,7 +31,7 @@ $(document).ready(function() {
         console.log(bookid);
 
         $.ajax({
-            url: `https://lib-server.azurewebsites.net/api/bookdetail/info/${bookid}`||`http://localhost:6969/api/bookdetail/info/${bookid}`,
+            url: `https://lib-server.herokuapp.com/api/bookdetail/info/${bookid}`||`http://localhost:6969/api/bookdetail/info/${bookid}`,
             method: 'GET',
             success: function (data) {
                console.log(data);
@@ -56,7 +56,7 @@ $(document).ready(function() {
                 $('#theloai').html(`Thể loại: ${data.book[0].tag}`);
 
                 $.ajax({
-                    url: `https://lib-server.azurewebsites.net/api/search/tag/${data.book[0].tag}`||`http://localhost:6969/api/search/tag/${data.book[0].tag}`,
+                    url: `https://lib-server.herokuapp.com/api/search/tag/${data.book[0].tag}`||`http://localhost:6969/api/search/tag/${data.book[0].tag}`,
 
                     method: 'GET',
                     success: function (data2) {
@@ -122,7 +122,7 @@ $(document).ready(function() {
         });
 
         $.ajax({
-            url: `https://lib-server.azurewebsites.net/api/bookdetail/comment/${bookid}`||`http://localhost:6969/api/bookdetail/comment/${bookid}`,
+            url: `https://lib-server.herokuapp.com/api/bookdetail/comment/${bookid}`||`http://localhost:6969/api/bookdetail/comment/${bookid}`,
             method: 'GET',
             success: function (data) {
                 $('#commentlist').html('');

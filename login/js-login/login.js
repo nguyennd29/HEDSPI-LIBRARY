@@ -5,7 +5,7 @@ $(document).ready(function () {
         var name = $('#username').val();
         var pass = $('#password').val();
         $.ajax({
-            url: `https://lib-server.azurewebsites.net/api/auth/login`||'http://localhost:6969/api/auth/login',
+            url: `https://lib-server.herokuapp.com/api/auth/login`||'http://localhost:6969/api/auth/login',
             method: 'POST',
             data: {username: name, password: pass},
             success: function (data) {
