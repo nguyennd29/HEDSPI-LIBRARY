@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('.logout-nav').hide();
     $.ajax({
-        url: 'https://lib-server.herokuapp.com/api/user'||`http://localhost:6969/api/user/`,
+        url: 'https://lib-server.azurewebsites.net/api/user'||`http://localhost:6969/api/user/`,
         method: 'GET',
         success: function (data) {
             if (data.success == 1) {                 //session existed

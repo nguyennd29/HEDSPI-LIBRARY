@@ -7,7 +7,7 @@ $(document).ready(function() {
         console.log(USER_QUERY);
         $('#result-list').empty();
         $.ajax({
-            url: `https://lib-server.herokuapp.com/api/search/keyword/${USER_QUERY}`||`http://localhost:6969/api/search/keyword/${USER_QUERY}`,
+            url: `https://lib-server.azurewebsites.net/api/search/keyword/${USER_QUERY}`||`http://localhost:6969/api/search/keyword/${USER_QUERY}`,
             method: 'GET',
             success: function (data) {
                 if (data.book && data.book.length > 0) {
@@ -62,7 +62,7 @@ $(document).ready(function() {
         console.log(tagname);
         $('#result-list').empty();
         $.ajax({
-            url: `https://lib-server.herokuapp.com/api/search/tag/${tagname}`||`http://localhost:6969/api/search/tag/${tagname}`,
+            url: `https://lib-server.azurewebsites.net/api/search/tag/${tagname}`||`http://localhost:6969/api/search/tag/${tagname}`,
             method: 'GET',
             success: function (data) {
                 if (data.book && data.book.length > 0) {
@@ -117,7 +117,7 @@ $(document).ready(function() {
         $('#result-list').empty();
 
         $.ajax({
-            url: `https://lib-server.herokuapp.com/api/search/keyword/${USER_QUERY}`||`http://localhost:6969/api/search/keyword/${USER_QUERY}`,
+            url: `https://lib-server.azurewebsites.net/api/search/keyword/${USER_QUERY}`||`http://localhost:6969/api/search/keyword/${USER_QUERY}`,
             method: 'GET',
             success: function (data) {
                 if(data.book && data.book.length > 0) {
@@ -171,7 +171,7 @@ $(document).ready(function() {
         $('#result-list').empty();
 
         $.ajax({
-            url: `https://lib-server.herokuapp.com/api/search/keyword/${USER_QUERY}`||`http://localhost:6969/api/search/keyword/${USER_QUERY}`,
+            url: `https://lib-server.azurewebsites.net/api/search/keyword/${USER_QUERY}`||`http://localhost:6969/api/search/keyword/${USER_QUERY}`,
             method: 'GET',
             success: function (data) {
                 if(data.book && data.book.length > 0) {
