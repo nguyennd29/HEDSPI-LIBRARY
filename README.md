@@ -61,9 +61,14 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## Built with 
 
+### FRONTEND
 - [jQuery - Ajax](http://www.w3schools.com/jquery/jquery_ref_ajax.asp) - jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
-- [Google Chart API](https://developers.google.com/chart/interactive/docs/quick_start) - Free , Rich Gallery , Customizable and Cross-browser compatible.
+
 - [Bootstrap](http://getbootstrap.com/) - Extensive list of components and  Bundled Javascript plugins.
+
+### BACKEND
+- [NodeJS](https://nodejs.org/) - As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.
+
 
 
 ## To-do
