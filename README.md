@@ -34,9 +34,6 @@ The WebApp is compatible with devices of all sizes and all OS's, and consistent 
 
 ![](https://scontent.fhan3-2.fna.fbcdn.net/v/t1.0-9/59482094_2346217785656048_6184885496175394816_n.jpg?_nc_cat=103&_nc_oc=AQmPkMpGC7YyAl09E6Kp-3RdMdM2wW-FTJ1ntxPLVlGGdW5Nk8_Dti0OJUY0IKqB9KR4jXwGgkD-vHyjLCqyLW-D&_nc_ht=scontent.fhan3-2.fna&oh=395962964cffcb6e6e3216149f31c7f0&oe=5D69BDDE)
 
-![](https://scontent.fhan3-2.fna.fbcdn.net/v/t1.0-9/59375714_2346218505655976_3237111757163986944_n.jpg?_nc_cat=107&_nc_oc=AQnMmocb42hZluGS1CS-0U7N5X1EhULHXjy9BR-nfUpbyXa-Iyolh8hK4REjsw8Qht-jcC-9BWa-vY2Rw0wNC0ct&_nc_ht=scontent.fhan3-2.fna&oh=a096af9232cdcd63c0034b698842aaca&oe=5D2A9B85)
-
-
 
 ## Technologies
 ### FRONTEND
@@ -64,6 +61,19 @@ Describe how to install / setup your local environement / add link to demo versi
 ---|---
 [Harsh Nguyên ](https://github.com/nguyend29) |[Quandl](https://www.quandl.com)
 
+## Team
+
+> Or Contributors/People
+
+| <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> |
+| :---: |:---:| :---:|
+| [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)    | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)  |
+| <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> |
+
+- You can just grab their GitHub profile image URL
+- You should probably resize their picture using `?s=200` at the end of the image URL.
+
+---
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
