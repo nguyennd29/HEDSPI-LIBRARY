@@ -1,5 +1,7 @@
 # HEDSPI Library
 > Easy to look for your book!
+## Demo
+Here is a working live demo :  http://hedspi-library.mybluemix.net/index.html
 
 ## Table of contents
 * [General info](#general-info)
@@ -7,12 +9,12 @@
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
+* [Deployment](#deployment)
 * [Team](#team)
 
 ## General info
 Finding the book you like in a huge library is not always easy. With HEDSPI library, you can see total information of plenty of books, also with the reviews and comments from other users.
+This project is a part of database course by MS Nguyen Hong Phuong from SOICT - HUST.
 
 ## Screenshots
 
@@ -45,101 +47,23 @@ The WebApp is compatible with devices of all sizes and all OS's, and consistent 
 ### BACKEND
 - [NodeJS](https://nodejs.org/) - As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.
 
+- [node-postgres](https://node-postgres.com) - node-postgres is a collection of node.js modules for interfacing with your PostgreSQL database. 
+
+### DATABASE
+- [PostgreSQL](https://www.elephantsql.com) - ElephantSQL automates every part of setup and running of PostgreSQL clusters. Available on all major cloud and application platforms all over the world.
+
+
+## Deployment
+Using IBM Cloud Service at https://cloud.ibm.com/
+
 ## Setup
 Describe how to install / setup your local environement / add link to demo version.
 
-## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
-
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
-
-## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
-
-## Inspiration
-Add here credits. Project inspired by..., based on...
-
 ## Team
 [![Nguyễn Duy Nguyên](https://avatars1.githubusercontent.com/u/12688534?v=3&s=144)](https://github.com/nguyennd29)  | [![Quandl.com](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://www.quandl.com/)
 ---|---
 [Harsh Nguyên ](https://github.com/nguyend29) |[Quandl](https://www.quandl.com)
 
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
-
-
-
-
-
-# ![HEDSPI Library](https://iharsh234.github.io/WebApp/images/demo/demo_landing.JPG)
-# HEDSPI Library
-<table>
-<tr>
-<td>
-  A webapp using Quandl API to display history of stock growth in a given period of time. It helps predict the growth of stocks from the  charts of stock performace in any period of time. It helps to judge stocks, with the principle of momentum investing, which returns 1% per month on average.
-</td>
-</tr>
-</table>
-
-
-## Demo
-Here is a working live demo :  https://iharsh234.github.io/WebApp/
-
-
-## Site
-
-
-
-
-
-
-## [Usage](https://iharsh234.github.io/WebApp/) 
-
-### Development
-Want to contribute? Great!
-
-To fix a bug or enhance an existing module, follow these steps:
-
-- Fork the repo
-- Create a new branch (`git checkout -b improve-feature`)
-- Make the appropriate changes in the files
-- Add changes to reflect the changes made
-- Commit your changes (`git commit -am 'Improve feature'`)
-- Push to the branch (`git push origin improve-feature`)
-- Create a Pull Request 
-
-### Bug / Feature Request
-
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/iharsh234/WebApp/issues/new) by including your search query and the expected result.
-
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/iharsh234/WebApp/issues/new). Please include sample queries and their corresponding results.
-
-
-## Built with 
-
-
-
-
-
-## To-do
-- Add BSE (India) Symbol to the current App.
-- Decide comparison models of Stocks. (suggestions are most welcome).
-- Another WebApp, capable of comparing at least 10 stocks.
-
-## Team
-
-[![Nguyễn Duy Nguyên](https://avatars1.githubusercontent.com/u/12688534?v=3&s=144)](https://github.com/nguyennd29)  | [![Quandl.com](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://www.quandl.com/)
----|---
-[Harsh Nguyên ](https://github.com/nguyend29) |[Quandl](https://www.quandl.com)
-
-## [License](https://github.com/iharsh234/WebApp/blob/master/LICENSE.md)
-
-MIT © [Harsh Vijay ](https://github.com/iharsh234)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
