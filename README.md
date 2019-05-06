@@ -72,9 +72,9 @@ Describe how to install / setup your local environement / add link to demo versi
 
 > Or Contributors/People
 
-| <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> |
+| <a href="https://github.com/nguyennd29" target="_blank">**Nguyễn Duy Nguyên**</a> | <a href="https://github.com/Atanna128" target="_blank">**Bùi Ngọc Tú**</a> | <a href="http://github.com" target="_blank">**Nguyễn Trọng Nghĩa**</a> |
 | :---: |:---:| :---:|
-| [![Nguyễn Duy Nguyên](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](https://github.com/nguyennd29)    | [![Bùi Ngọc Tú](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)]() | [![Nguyễn Trọng Nghĩa](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)]()  |
+| [![Nguyễn Duy Nguyên](http://hedspi-library.mybluemix.net/images/ava1.jpg?v=3&s=200)](https://github.com/nguyennd29)    | [![Bùi Ngọc Tú](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)]() | [![Nguyễn Trọng Nghĩa](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)]()  |
 | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> |
 
 - You can just grab their GitHub profile image URL
