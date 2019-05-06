@@ -1,6 +1,5 @@
 # HEDSPI Library
-> This website is made to help people easier to look for books from library.\n
-> ユーザーが図書館の本を簡単に調べるためのウェブサイト。
+> Easy to look for your book!
 
 ## Table of contents
 * [General info](#general-info)
@@ -13,7 +12,7 @@
 * [Contact](#contact)
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+Finding the book you like in a huge library is not always easy. With HEDSPI library, you can see total information of plenty of books, also with the reviews and comments from other users.
 
 ## Screenshots
 
@@ -31,7 +30,7 @@ Currently it is working on all NSE (India) Stocks, BSE (India) Stocks Symbol wil
 ### Mobile support
 The WebApp is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 
-![](https://scontent.fhan3-2.fna.fbcdn.net/v/t1.0-9/59482094_2346217785656048_6184885496175394816_n.jpg?_nc_cat=103&_nc_oc=AQmPkMpGC7YyAl09E6Kp-3RdMdM2wW-FTJ1ntxPLVlGGdW5Nk8_Dti0OJUY0IKqB9KR4jXwGgkD-vHyjLCqyLW-D&_nc_ht=scontent.fhan3-2.fna&oh=395962964cffcb6e6e3216149f31c7f0&oe=5D69BDDE)
+![](https://scontent.fhan3-2.fna.fbcdn.net/v/t1.0-9/59482094_2346217785656048_6184885496175394816_n.jpg?_nc_cat=103&_nc_oc=AQmPkMpGC7YyAl09E6Kp-3RdMdM2wW-FTJ1ntxPLVlGGdW5Nk8_Dti0OJUY0IKqB9KR4jXwGgkD-vHyjLCqyLW-D&_nc_ht=scontent.fhan3-2.fna&oh=395962964cffcb6e6e3216149f31c7f0&oe=5D69BDDE?s=300)
 
 ![](https://scontent.fhan3-2.fna.fbcdn.net/v/t1.0-9/59375714_2346218505655976_3237111757163986944_n.jpg?_nc_cat=107&_nc_oc=AQnMmocb42hZluGS1CS-0U7N5X1EhULHXjy9BR-nfUpbyXa-Iyolh8hK4REjsw8Qht-jcC-9BWa-vY2Rw0wNC0ct&_nc_ht=scontent.fhan3-2.fna&oh=a096af9232cdcd63c0034b698842aaca&oe=5D2A9B85)
 
