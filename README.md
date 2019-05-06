@@ -74,8 +74,8 @@ Describe how to install / setup your local environement / add link to demo versi
 
 | <a href="https://github.com/nguyennd29" target="_blank">**Nguyễn Duy Nguyên**</a> | <a href="https://github.com/Atanna128" target="_blank">**Bùi Ngọc Tú**</a> | <a href="http://github.com" target="_blank">**Nguyễn Trọng Nghĩa**</a> |
 | :---: |:---:| :---:|
-| [![Nguyễn Duy Nguyên](http://hedspi-library.mybluemix.net/images/ava1.jpg?v=3&s=200)](https://github.com/nguyennd29)    | [![Bùi Ngọc Tú](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)]() | [![Nguyễn Trọng Nghĩa](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)]()  |
-| <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> |
+| [![Nguyễn Duy Nguyên](http://hedspi-library.mybluemix.net/images/ava1.jpg?v=3&s=200)](https://github.com/nguyennd29)    | [![Bùi Ngọc Tú](http://hedspi-library.mybluemix.net/images/ava03.jpeg?v=3&s=200)]() | [![Nguyễn Trọng Nghĩa](http://hedspi-library.mybluemix.net/images/ava02.jpeg?v=3&s=200)]()  |
+| <a href="http://github.com/nguyennd29" target="_blank">`github.com/nguyennd29`</a> | <a href="http://github.com/Atanna128" target="_blank">`github.com/Atanna128`</a> | <a href="http://github.com/" target="_blank">`github.com/trongnghia98`</a> |
 
 - You can just grab their GitHub profile image URL
 - You should probably resize their picture using `?s=200` at the end of the image URL.
