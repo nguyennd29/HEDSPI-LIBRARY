@@ -73,7 +73,7 @@ Describe how to install / setup your local environement / add link to demo versi
 
 | <a href="https://github.com/nguyennd29" target="_blank">**Nguyễn Duy Nguyên**</a> | <a href="https://github.com/Atanna128" target="_blank">**Bùi Ngọc Tú**</a> | <a href="http://github.com" target="_blank">**Nguyễn Trọng Nghĩa**</a> |
 | :---: |:---:| :---:|
-| [![Nguyễn Duy Nguyên](http://hedspi-library.mybluemix.net/images/ava1.jpg?s=150)](https://github.com/nguyennd29)    | [![Bùi Ngọc Tú](http://hedspi-library.mybluemix.net/images/ava03.jpeg?s=150)]() | [![Nguyễn Trọng Nghĩa](http://hedspi-library.mybluemix.net/images/ava02.jpeg?s=150)]()  |
+| [![Nguyễn Duy Nguyên](http://hedspi-library.mybluemix.net/images/ava1.jpg?s=150)](https://github.com/nguyennd29)    | [![Bùi Ngọc Tú](http://hedspi-library.mybluemix.net/images/ava03.jpeg?s=50)]() | [![Nguyễn Trọng Nghĩa](http://hedspi-library.mybluemix.net/images/ava02.jpeg?s=100)]()  |
 | <a href="http://github.com/nguyennd29" target="_blank">`github.com/nguyennd29`</a> | <a href="http://github.com/Atanna128" target="_blank">`github.com/Atanna128`</a> | <a href="http://github.com/" target="_blank">`github.com/trongnghia98`</a> |
 
 - You can just grab their GitHub profile image URL
