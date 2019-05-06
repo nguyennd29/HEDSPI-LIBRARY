@@ -21,7 +21,7 @@ Currently it is working on all NSE (India) Stocks, BSE (India) Stocks Symbol wil
 ![](https://scontent.fhan4-1.fna.fbcdn.net/v/t1.0-9/59643893_2346211332323360_3770063159319068672_o.jpg?_nc_cat=104&_nc_oc=AQnmPxHnoQLa35wOdGpMlD_SxGkZpn9KNG1P5Bzk6DeJocums3WYLjoT4nRm1YHYA67XL4bUBLA76WURiwBbQROA&_nc_ht=scontent.fhan4-1.fna&oh=3a1aaefb5e84175e6cf9c192957fd394&oe=5D5DB027)
 
 ### Query Filled Form
-![](https://iharsh234.github.io/WebApp/images/demo/demo_query.JPG)
+![](https://scontent.fhan3-3.fna.fbcdn.net/v/t1.0-9/59440920_2346210988990061_7929778632338178048_o.jpg?_nc_cat=108&_nc_oc=AQkfdhgPerKfjsbvm_QEonMCASHvbxCfubHygOw9tBWGqOt8a-zgACTGTg6mnTKP4G_f3_9vdASpBrgIttdAiIrw&_nc_ht=scontent.fhan3-3.fna&oh=126ca0f80c9682319233cde91974108a&oe=5D2B7963)
 
 ### Charts
 ![](https://iharsh234.github.io/WebApp/images/demo/demo_chart1.JPG)
