@@ -9,7 +9,7 @@
 * [Features](#features)
 * [Status](#status)
 * [Inspiration](#inspiration)
-* [Contact](#contact)
+* [Team](#team)
 
 ## General info
 Finding the book you like in a huge library is not always easy. With HEDSPI library, you can see total information of plenty of books, also with the reviews and comments from other users.
@@ -71,6 +71,10 @@ Add here credits. Project inspired by..., based on...
 
 ## Contact
 Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+
+
+
+
 
 # ![HEDSPI Library](https://iharsh234.github.io/WebApp/images/demo/demo_landing.JPG)
 # HEDSPI Library
