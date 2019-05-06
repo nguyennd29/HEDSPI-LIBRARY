@@ -11,10 +11,12 @@ ___
 * [Features](#features)
 * [Deployment](#deployment)
 * [Team](#team)
-
+---
 ## General info
 Finding the book you like in a huge library is not always easy. With HEDSPI library, you can see total information of plenty of books, also with the reviews and comments from other users.
 This project is a part of database course by MS Nguyen Hong Phuong from SOICT - HUST.
+
+---
 
 ## Screenshots
 
@@ -34,7 +36,7 @@ The WebApp is compatible with devices of all sizes and all OS's, and consistent 
 
 ![](https://scontent.fhan3-2.fna.fbcdn.net/v/t1.0-9/59482094_2346217785656048_6184885496175394816_n.jpg?_nc_cat=103&_nc_oc=AQmPkMpGC7YyAl09E6Kp-3RdMdM2wW-FTJ1ntxPLVlGGdW5Nk8_Dti0OJUY0IKqB9KR4jXwGgkD-vHyjLCqyLW-D&_nc_ht=scontent.fhan3-2.fna&oh=395962964cffcb6e6e3216149f31c7f0&oe=5D69BDDE)
 
-
+---
 ## Technologies
 ### FRONTEND
 - [jQuery - Ajax](http://www.w3schools.com/jquery/jquery_ref_ajax.asp) - jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
@@ -49,22 +51,24 @@ The WebApp is compatible with devices of all sizes and all OS's, and consistent 
 ### DATABASE
 - [PostgreSQL](https://www.elephantsql.com) - ElephantSQL automates every part of setup and running of PostgreSQL clusters. Available on all major cloud and application platforms all over the world.
 
+---
 
 ## Deployment
+
 Using IBM Cloud Service at https://cloud.ibm.com/
 
+---
 ## Setup
+
 Describe how to install / setup your local environement / add link to demo version.
 
+---
 ## Team
 [![Nguyễn Duy Nguyên](https://avatars1.githubusercontent.com/u/12688534?v=3&s=144)](https://github.com/nguyennd29)  | [![Quandl.com](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://www.quandl.com/)
 ---|---
 [Harsh Nguyên ](https://github.com/nguyend29) |[Quandl](https://www.quandl.com)
 
 ## Team
-
-> Or Contributors/People
-
 | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> |
 | :---: |:---:| :---:|
 | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)    | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)  |
@@ -79,6 +83,8 @@ Describe how to install / setup your local environement / add link to demo versi
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+---
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
