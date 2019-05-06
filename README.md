@@ -22,7 +22,6 @@ This project is a part of database course by MS Nguyen Hong Phuong from SOICT - 
 ## Screenshots
 
 ### Landing Page
-Currently it is working on all NSE (India) Stocks, BSE (India) Stocks Symbol will be added soon.
 
 ![](https://scontent.fhan3-1.fna.fbcdn.net/v/t1.0-9/59649002_2346217765656050_4378662537718136832_o.jpg?_nc_cat=109&_nc_oc=AQn13A2YUtq0X95_qzoedrn_fvNzSRhi3hTPMeKqltrjRSDNZ_Aq1DO3JSwmwKjY5TFv8HuTRB82u1kWYJVzWGV_&_nc_ht=scontent.fhan3-1.fna&oh=0251f5293f5f4887be6c287183e853f1&oe=5D737BB5)
 
