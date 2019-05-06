@@ -18,20 +18,21 @@ Here is a working live demo :  https://iharsh234.github.io/WebApp/
 ### Landing Page
 Currently it is working on all NSE (India) Stocks, BSE (India) Stocks Symbol will be added soon.
 
-![](https://scontent.fhan3-2.fna.fbcdn.net/v/t1.0-9/59527045_2346214688989691_4052631346940477440_o.jpg?_nc_cat=107&_nc_oc=AQmCSHfDIaKr8JBbsEw9-HA9mYUcLAXgavkcfcKq7oG6vccbAEpNT-Kn7Trq_aP_Qk5Y3DoWr1A37u1om9x8aJvU&_nc_ht=scontent.fhan3-2.fna&oh=7480d386b7c66959e1a8776cb113b220&oe=5D6F3B00)
+![](https://scontent.fhan3-1.fna.fbcdn.net/v/t1.0-9/59649002_2346217765656050_4378662537718136832_o.jpg?_nc_cat=109&_nc_oc=AQn13A2YUtq0X95_qzoedrn_fvNzSRhi3hTPMeKqltrjRSDNZ_Aq1DO3JSwmwKjY5TFv8HuTRB82u1kWYJVzWGV_&_nc_ht=scontent.fhan3-1.fna&oh=0251f5293f5f4887be6c287183e853f1&oe=5D737BB5)
 
-### Query Filled Form
-![](https://scontent.fhan3-3.fna.fbcdn.net/v/t1.0-9/59403952_2346214668989693_639941893651693568_o.jpg?_nc_cat=100&_nc_oc=AQmuNJ2uPAxjrHVRA4MA1SaZtEUneoQr9SEH4uhogqUu8Lu3uaJut2UTqIyXapmkYN0xrHYmqlP5dlOgWrHq83Am&_nc_ht=scontent.fhan3-3.fna&oh=7c64924c9bac52402a236e842a576818&oe=5D61B835)
+### Search Page
+![](https://scontent.fhan4-1.fna.fbcdn.net/v/t1.0-9/59558750_2346217758989384_4454688982185279488_o.jpg?_nc_cat=104&_nc_oc=AQnCa_78USg2baHTwTrr_-xhWaBZtcqigxoee-BeBiJ58l4ivTR75KA2yogcWOOvB7Rs3KhVsDj-L6cXIDtzKDTg&_nc_ht=scontent.fhan4-1.fna&oh=21d45639a5661c0379aedcb937226401&oe=5D6806FE)
 
-### Charts
-![](https://scontent.fhan3-1.fna.fbcdn.net/v/t1.0-9/59764938_2346214645656362_7150512565154480128_o.jpg?_nc_cat=111&_nc_oc=AQlNuXJWNp3HfdeO583iY8SzC2doxHgSMr05N1_kGYzU83aZKt_lSDVK_tOo6k7TYRnhWKLaNIlVK-puT8W_g1XU&_nc_ht=scontent.fhan3-1.fna&oh=18f8ed508e69e0699fe2792304a9cfbf&oe=5D775ABE)
-
+### Book Detail Page
+![](https://scontent.fhan3-3.fna.fbcdn.net/v/t1.0-9/59654826_2346217738989386_1529594208095043584_o.jpg?_nc_cat=101&_nc_oc=AQkoK5hIw5CSbxWoVzaWS1AwexTpHDDTu2Li4yyYcupZ585UYr9Y_AvnLnh7F0hfZny7-lsbIc-XxJIHrEIO2AgP&_nc_ht=scontent.fhan3-3.fna&oh=9d1cf3fd628444503c52d79f484eb4a1&oe=5D656217)
 
 
 ## Mobile support
 The WebApp is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 
-![](https://iharsh234.github.io/WebApp/images/demo/mobile.png)
+![](https://scontent.fhan3-2.fna.fbcdn.net/v/t1.0-9/59482094_2346217785656048_6184885496175394816_n.jpg?_nc_cat=103&_nc_oc=AQmPkMpGC7YyAl09E6Kp-3RdMdM2wW-FTJ1ntxPLVlGGdW5Nk8_Dti0OJUY0IKqB9KR4jXwGgkD-vHyjLCqyLW-D&_nc_ht=scontent.fhan3-2.fna&oh=395962964cffcb6e6e3216149f31c7f0&oe=5D69BDDE)
+
+![](https://scontent.fhan3-2.fna.fbcdn.net/v/t1.0-9/59375714_2346218505655976_3237111757163986944_n.jpg?_nc_cat=107&_nc_oc=AQnMmocb42hZluGS1CS-0U7N5X1EhULHXjy9BR-nfUpbyXa-Iyolh8hK4REjsw8Qht-jcC-9BWa-vY2Rw0wNC0ct&_nc_ht=scontent.fhan3-2.fna&oh=a096af9232cdcd63c0034b698842aaca&oe=5D2A9B85)
 
 
 
