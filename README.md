@@ -58,15 +58,42 @@ The WebApp is compatible with devices of all sizes and all OS's, and consistent 
 Using IBM Cloud Service at https://cloud.ibm.com/
 
 ---
-## Setup
 
-Describe how to install / setup your local environement / add link to demo version.
+## Installation
+
+- All the `code` required to get started
+- Images of what it should look like
+
+### Clone
+
+- Clone this repo to your local machine using `https://github.com/nguyennd29/csdl-project`
+- Clone backend repo using `https://github.com/nguyennd29/SERVER-library`
+
+### Setup
+#### BACKEND
+> install npm packages
+
+```shell
+$ npm install
+
+```
+run the server
+```shell
+$ node server
+
+```
+
+#### FRONTEND
+> run the http-server by command line
+
+```shell
+$ http-server
+
+```
+ You will then be able to access it at localhost:8080
+ Make sure of your internet connection for the access to online elephantsql server.
 
 ---
-## Team
-[![Nguyễn Duy Nguyên](https://avatars1.githubusercontent.com/u/12688534?v=3&s=144)](https://github.com/nguyennd29)  | [![Quandl.com](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://www.quandl.com/)
----|---
-[Harsh Nguyên ](https://github.com/nguyend29) |[Quandl](https://www.quandl.com)
 
 ## Team
 
