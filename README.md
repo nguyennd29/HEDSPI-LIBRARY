@@ -18,7 +18,7 @@ Here is a working live demo :  https://iharsh234.github.io/WebApp/
 ### Landing Page
 Currently it is working on all NSE (India) Stocks, BSE (India) Stocks Symbol will be added soon.
 
-![](https://iharsh234.github.io/WebApp/images/demo/web_app_face.JPG)
+![](https://scontent.fhan4-1.fna.fbcdn.net/v/t1.0-9/59643893_2346211332323360_3770063159319068672_o.jpg?_nc_cat=104&_nc_oc=AQnmPxHnoQLa35wOdGpMlD_SxGkZpn9KNG1P5Bzk6DeJocums3WYLjoT4nRm1YHYA67XL4bUBLA76WURiwBbQROA&_nc_ht=scontent.fhan4-1.fna&oh=3a1aaefb5e84175e6cf9c192957fd394&oe=5D5DB027)
 
 ### Query Filled Form
 ![](https://iharsh234.github.io/WebApp/images/demo/demo_query.JPG)
