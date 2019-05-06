@@ -1,5 +1,5 @@
 # HEDSPI Library
-> This website is made to help people easier to look for books from library.
+> This website is made to help people easier to look for books from library.\n
 > ユーザーが図書館の本を簡単に調べるためのウェブサイト。
 
 ## Table of contents
@@ -49,10 +49,6 @@ The WebApp is compatible with devices of all sizes and all OS's, and consistent 
 ## Setup
 Describe how to install / setup your local environement / add link to demo version.
 
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
-
 ## Features
 List of features ready and TODOs for future development
 * Awesome feature 1
@@ -68,6 +64,11 @@ Project is: _in progress_, _finished_, _no longer continue_ and why?
 
 ## Inspiration
 Add here credits. Project inspired by..., based on...
+
+## Team
+[![Nguyễn Duy Nguyên](https://avatars1.githubusercontent.com/u/12688534?v=3&s=144)](https://github.com/nguyennd29)  | [![Quandl.com](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://www.quandl.com/)
+---|---
+[Harsh Nguyên ](https://github.com/nguyend29) |[Quandl](https://www.quandl.com)
 
 ## Contact
 Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
@@ -136,3 +137,11 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 ## [License](https://github.com/iharsh234/WebApp/blob/master/LICENSE.md)
 
 MIT © [Harsh Vijay ](https://github.com/iharsh234)
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
