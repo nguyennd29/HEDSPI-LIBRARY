@@ -8,9 +8,10 @@ ___
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Features](#features)
 * [Deployment](#deployment)
 * [Team](#team)
+* [Contribution](#contribution)
+* [License](#license)
 ---
 ## General info
 Finding the book you like in a huge library is not always easy. With HEDSPI library, you can see total information of plenty of books, also with the reviews and comments from other users.
@@ -103,13 +104,11 @@ $ http-server
 | [![Nguyễn Duy Nguyên](http://hedspi-library.mybluemix.net/images/ava1.jpg?s=150)](https://github.com/nguyennd29)    | [![Bùi Ngọc Tú](http://hedspi-library.mybluemix.net/images/ava03.jpeg?s=50)]() | [![Nguyễn Trọng Nghĩa](http://hedspi-library.mybluemix.net/images/ava02.jpeg?s=100)]()  |
 | <a href="http://github.com/nguyennd29" target="_blank">`github.com/nguyennd29`</a> | <a href="http://github.com/Atanna128" target="_blank">`github.com/Atanna128`</a> | <a href="http://github.com/" target="_blank">`github.com/trongnghia98`</a> |
 
-- You can just grab their GitHub profile image URL
-- You should probably resize their picture using `?s=200` at the end of the image URL.
 
 ---
 
 
-## Contributing
+## Contribution
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
