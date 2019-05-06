@@ -2,7 +2,7 @@
 > Easy to look for your book!
 ## Demo
 Here is a working live demo :  http://hedspi-library.mybluemix.net/index.html
-
+___
 ## Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
