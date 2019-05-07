@@ -14,7 +14,7 @@ ___
 * [License](#license)
 ---
 ## General info
-Finding the book you like in a huge library is not always easy. With HEDSPI library, you can see total information of plenty of books, also with the reviews and comments from other users.
+Finding the book you like in a huge library is not always easy. With HEDSPI library, you can look up total information of plenty of books, also with the reviews and comments from other users.
 This project is a part of database course by MS Nguyen Hong Phuong from SOICT - HUST.
 
 ---
@@ -103,7 +103,8 @@ $ http-server
 
 | <a href="https://github.com/nguyennd29" target="_blank">**Nguyễn Duy Nguyên**</a> | <a href="https://github.com/Atanna128" target="_blank">**Bùi Ngọc Tú**</a> | <a href="http://github.com/tonytit98" target="_blank">**Nguyễn Trọng Nghĩa**</a> | 
 | :---: |:---:| :---:|
-| [![Nguyễn Duy Nguyên](http://hedspi-library.mybluemix.net/images/ava1.jpg?s=150)](https://github.com/nguyennd29) | [![Bùi Ngọc Tú](http://hedspi-library.mybluemix.net/images/ava03.jpeg?s=50)](https://github.com/Atanna128) | [![Nguyễn Trọng Nghĩa](http://hedspi-library.mybluemix.net/images/ava02.jpeg?s=100)](https://github.com/tonytit98)  || <a href="http://github.com/nguyennd29" target="_blank">`github.com/nguyennd29`</a> | <a href="http://github.com/Atanna128" target="_blank">`github.com/Atanna128`</a> | <a href="http://github.com/tonytit98" target="_blank">`github.com/tonytit98`</a> |
+| [![Nguyễn Duy Nguyên](http://hedspi-library.mybluemix.net/images/ava1.jpg?s=150)](https://github.com/nguyennd29) | [![Bùi Ngọc Tú](https://imgur.com/a/ni3CZ7u)](https://github.com/Atanna128) | [![Nguyễn Trọng Nghĩa](http://hedspi-library.mybluemix.net/images/ava02.jpeg?s=100)](https://github.com/tonytit98)  |
+| <a href="http://github.com/nguyennd29" target="_blank">`github.com/nguyennd29`</a> | <a href="http://github.com/Atanna128" target="_blank">`github.com/Atanna128`</a> | <a href="http://github.com/tonytit98" target="_blank">`github.com/tonytit98`</a> |
 
 
 ---
