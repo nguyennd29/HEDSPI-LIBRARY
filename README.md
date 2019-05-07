@@ -23,7 +23,7 @@ This project is a part of database course by MS Nguyen Hong Phuong from SOICT - 
 
 ### Landing Page
 
-![](https://scontent.fhan3-1.fna.fbcdn.net/v/t1.0-9/59649002_2346217765656050_4378662537718136832_o.jpg?_nc_cat=109&_nc_oc=AQn13A2YUtq0X95_qzoedrn_fvNzSRhi3hTPMeKqltrjRSDNZ_Aq1DO3JSwmwKjY5TFv8HuTRB82u1kWYJVzWGV_&_nc_ht=scontent.fhan3-1.fna&oh=0251f5293f5f4887be6c287183e853f1&oe=5D737BB5)
+![](https://scontent.fhan3-1.fna.fbcdn.net/v/t1.0-9/59649002_2346217765656050_4378662537718136832_o.jpg?_nc_cat=109&_nc_oc=AQn13A2YUtq0X95_qzoedrn_fvNzSRhi3hTPMeKqltrjRSDNZ_Aq1DO3JSwmwKjY5TFv8HuTRB82u1kWYJVzWGV_&_nc_ht=scontent.fhan3-1.fna&oh=0251f5293f5f4887be6c287183e853f1&oe=5D737BB5)" 
 
 ### Search Page
 ![](https://scontent.fhan4-1.fna.fbcdn.net/v/t1.0-9/59558750_2346217758989384_4454688982185279488_o.jpg?_nc_cat=104&_nc_oc=AQnCa_78USg2baHTwTrr_-xhWaBZtcqigxoee-BeBiJ58l4ivTR75KA2yogcWOOvB7Rs3KhVsDj-L6cXIDtzKDTg&_nc_ht=scontent.fhan4-1.fna&oh=21d45639a5661c0379aedcb937226401&oe=5D6806FE)
@@ -33,8 +33,11 @@ This project is a part of database course by MS Nguyen Hong Phuong from SOICT - 
 
 ### Mobile support
 The WebApp is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
+<p align="center">
+  <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.0-9/59482094_2346217785656048_6184885496175394816_n.jpg?_nc_cat=103&_nc_oc=AQmPkMpGC7YyAl09E6Kp-3RdMdM2wW-FTJ1ntxPLVlGGdW5Nk8_Dti0OJUY0IKqB9KR4jXwGgkD-vHyjLCqyLW-D&_nc_ht=scontent.fhan3-2.fna&oh=395962964cffcb6e6e3216149f31c7f0&oe=5D69BDDE">
+</p>
 
-![](https://scontent.fhan3-2.fna.fbcdn.net/v/t1.0-9/59482094_2346217785656048_6184885496175394816_n.jpg?_nc_cat=103&_nc_oc=AQmPkMpGC7YyAl09E6Kp-3RdMdM2wW-FTJ1ntxPLVlGGdW5Nk8_Dti0OJUY0IKqB9KR4jXwGgkD-vHyjLCqyLW-D&_nc_ht=scontent.fhan3-2.fna&oh=395962964cffcb6e6e3216149f31c7f0&oe=5D69BDDE)
+
 
 ---
 ## Technologies
