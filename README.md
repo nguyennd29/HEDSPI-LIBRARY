@@ -103,7 +103,7 @@ $ http-server
 
 | <a href="https://github.com/nguyennd29" target="_blank">**Nguyễn Duy Nguyên**</a> | <a href="https://github.com/Atanna128" target="_blank">**Bùi Ngọc Tú**</a> | <a href="http://github.com/tonytit98" target="_blank">**Nguyễn Trọng Nghĩa**</a> | 
 | :---: |:---:| :---:|
-| <img width="200" src="http://hedspi-library.mybluemix.net/images/ava1.jpg"> | <img width="200" src="https://i.imgur.com/0n5QHC5.jpg"> | <img width="200" src="http://hedspi-library.mybluemix.net/images/ava02.jpeg?s=100">  |
+| <img width="200" height="300" src="http://hedspi-library.mybluemix.net/images/ava1.jpg"> | <img width="200" height="300" src="https://i.imgur.com/0n5QHC5.jpg"> | <img width="200" height="300" src="http://hedspi-library.mybluemix.net/images/ava02.jpeg?s=100">  |
 | <a href="http://github.com/nguyennd29" target="_blank">`github.com/nguyennd29`</a> | <a href="http://github.com/Atanna128" target="_blank">`github.com/Atanna128`</a> | <a href="http://github.com/tonytit98" target="_blank">`github.com/tonytit98`</a> |
 
 
