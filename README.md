@@ -33,8 +33,8 @@ This project is a part of database course by MS Nguyen Hong Phuong from SOICT - 
 
 ### Mobile support
 The WebApp is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
-<p align="center">
-  <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.0-9/59482094_2346217785656048_6184885496175394816_n.jpg?_nc_cat=103&_nc_oc=AQmPkMpGC7YyAl09E6Kp-3RdMdM2wW-FTJ1ntxPLVlGGdW5Nk8_Dti0OJUY0IKqB9KR4jXwGgkD-vHyjLCqyLW-D&_nc_ht=scontent.fhan3-2.fna&oh=395962964cffcb6e6e3216149f31c7f0&oe=5D69BDDE">
+<p  align="center" >
+  <img width="200" height= "300" src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.0-9/59482094_2346217785656048_6184885496175394816_n.jpg?_nc_cat=103&_nc_oc=AQmPkMpGC7YyAl09E6Kp-3RdMdM2wW-FTJ1ntxPLVlGGdW5Nk8_Dti0OJUY0IKqB9KR4jXwGgkD-vHyjLCqyLW-D&_nc_ht=scontent.fhan3-2.fna&oh=395962964cffcb6e6e3216149f31c7f0&oe=5D69BDDE">
 </p>
 
 
@@ -103,7 +103,11 @@ $ http-server
 
 | <a href="https://github.com/nguyennd29" target="_blank">**Nguyễn Duy Nguyên**</a> | <a href="https://github.com/Atanna128" target="_blank">**Bùi Ngọc Tú**</a> | <a href="http://github.com" target="_blank">**Nguyễn Trọng Nghĩa**</a> |
 | :---: |:---:| :---:|
-| [![Nguyễn Duy Nguyên](http://hedspi-library.mybluemix.net/images/ava1.jpg?s=150)](https://github.com/nguyennd29)    | [![Bùi Ngọc Tú](http://hedspi-library.mybluemix.net/images/ava03.jpeg?s=50)](https://github.com/Atanna128) | [![Nguyễn Trọng Nghĩa](http://hedspi-library.mybluemix.net/images/ava02.jpeg?s=100)]()  |
+
+| [![Nguyễn Duy Nguyên](http://hedspi-library.mybluemix.net/images/ava1.jpg?s=150)](https://github.com/nguyennd29)    
+| [![Bùi Ngọc Tú](http://hedspi-library.mybluemix.net/images/ava03.jpeg?s=50)](https://github.com/Atanna128) 
+| [![Nguyễn Trọng Nghĩa](http://hedspi-library.mybluemix.net/images/ava02.jpeg?s=100)]((https://github.com/tonytit98)  |
+
 | <a href="http://github.com/nguyennd29" target="_blank">`github.com/nguyennd29`</a> | <a href="http://github.com/Atanna128" target="_blank">`github.com/Atanna128`</a> | <a href="http://github.com/" target="_blank">`github.com/trongnghia98`</a> |
 
 
