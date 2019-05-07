@@ -34,7 +34,7 @@ This project is a part of database course by MS Nguyen Hong Phuong from SOICT - 
 ### Mobile support
 The WebApp is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 <p  align="center" >
-  <img width="200" height= "400" src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.0-9/59482094_2346217785656048_6184885496175394816_n.jpg?_nc_cat=103&_nc_oc=AQmPkMpGC7YyAl09E6Kp-3RdMdM2wW-FTJ1ntxPLVlGGdW5Nk8_Dti0OJUY0IKqB9KR4jXwGgkD-vHyjLCqyLW-D&_nc_ht=scontent.fhan3-2.fna&oh=395962964cffcb6e6e3216149f31c7f0&oe=5D69BDDE">
+  <img width="300"  src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.0-9/59482094_2346217785656048_6184885496175394816_n.jpg?_nc_cat=103&_nc_oc=AQmPkMpGC7YyAl09E6Kp-3RdMdM2wW-FTJ1ntxPLVlGGdW5Nk8_Dti0OJUY0IKqB9KR4jXwGgkD-vHyjLCqyLW-D&_nc_ht=scontent.fhan3-2.fna&oh=395962964cffcb6e6e3216149f31c7f0&oe=5D69BDDE">
 </p>
 
 
