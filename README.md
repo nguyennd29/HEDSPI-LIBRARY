@@ -103,7 +103,7 @@ $ http-server
 
 | <a href="https://github.com/nguyennd29" target="_blank">**Nguyễn Duy Nguyên**</a> | <a href="https://github.com/Atanna128" target="_blank">**Bùi Ngọc Tú**</a> | <a href="http://github.com/tonytit98" target="_blank">**Nguyễn Trọng Nghĩa**</a> | 
 | :---: |:---:| :---:|
-| [![Nguyễn Duy Nguyên](http://hedspi-library.mybluemix.net/images/ava1.jpg?s=150)](https://github.com/nguyennd29) | [![Bùi Ngọc Tú](https://imgur.com/a/ni3CZ7u)](https://github.com/Atanna128) | [![Nguyễn Trọng Nghĩa](http://hedspi-library.mybluemix.net/images/ava02.jpeg?s=100)](https://github.com/tonytit98)  |
+| [![Nguyễn Duy Nguyên](http://hedspi-library.mybluemix.net/images/ava1.jpg?s=150)](https://github.com/nguyennd29) | [![Bùi Ngọc Tú](https://i.imgur.com/gkPhGo8.jpg)](https://github.com/Atanna128) | [![Nguyễn Trọng Nghĩa](http://hedspi-library.mybluemix.net/images/ava02.jpeg?s=100)](https://github.com/tonytit98)  |
 | <a href="http://github.com/nguyennd29" target="_blank">`github.com/nguyennd29`</a> | <a href="http://github.com/Atanna128" target="_blank">`github.com/Atanna128`</a> | <a href="http://github.com/tonytit98" target="_blank">`github.com/tonytit98`</a> |
 
 
